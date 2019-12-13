@@ -1,5 +1,4 @@
 ﻿using Assets.Scripts;
-using Assets.Scripts.ScriptableObjects;
 using UnityEngine;
 
 [RequireComponent(typeof(GameDataStore))]
