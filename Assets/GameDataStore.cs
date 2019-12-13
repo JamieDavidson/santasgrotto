@@ -1,7 +1,7 @@
 ﻿using Assets.Scripts.ScriptableObjects;
 using UnityEngine;
 
-internal sealed class ToyDataStore : MonoBehaviour
+internal sealed class GameDataStore : MonoBehaviour
 {
     public BaseToy[] BaseToys;
     public ToyAttachment[] ToyAttachments;

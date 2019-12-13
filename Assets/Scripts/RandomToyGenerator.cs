@@ -2,16 +2,16 @@
 using Assets.Scripts.ScriptableObjects;
 using UnityEngine;
 
-[RequireComponent(typeof(ToyDataStore))]
+[RequireComponent(typeof(GameDataStore))]
 internal sealed class RandomToyGenerator : MonoBehaviour
 {
     private ToyCombination currentToy;
 
-    public ToyDataStore Store;
+    public GameDataStore Store;
 
     private void Awake()
     {
-        Store = GetComponent<ToyDataStore>();
+        Store = GetComponent<GameDataStore>();
 
         currentToy = GenerateNewToy();
 
