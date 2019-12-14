@@ -6,17 +6,17 @@ namespace Assets.Scripts.UI.BottomMenu
 {
     public sealed class ToyAttachmentMenuButton : MonoBehaviour
     {
-        private ToyAttachment m_Attachment;
+        private GameObject m_AttachmentPrefab;
         private Button m_Button;
         private GameTracker m_Tracker;
 
-        public void Initialize(ToyAttachment attachment)
+        public void Initialize(GameObject attachmentPrefab)
         {
-            m_Attachment = attachment;
+            m_AttachmentPrefab = attachmentPrefab;
             m_Button = GetComponent<Button>();
             m_Tracker = Camera.main.GetComponent<GameTracker>();
 
-            m_Button.onClick.AddListener(() => m_Tracker.AddToyAttachment(m_Attachment));
+            m_Button.onClick.AddListener(() => m_Tracker.AddToyAttachment(m_AttachmentPrefab));
         }
     }
 }

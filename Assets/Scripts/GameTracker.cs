@@ -22,9 +22,15 @@ namespace Assets.Scripts
             BaseToy = toy;
         }
 
-        public void AddToyAttachment(ToyAttachment attachment)
+        public void AddToyAttachment(GameObject toyAttachment)
         {
-            ToyAttachments.Add(attachment);
+            var data = toyAttachment.GetComponent<AttachmentDataStore>();
+            if (data == null)
+            {
+                Debug.LogError("NO ATTACHMENT DATA FOUND ON OBJECT WE TRIED TO ATTACH");
+                return;
+            }
+            ToyAttachments.Add(data.AttachmentData);
         }
 
         public void RemoveToyAttachment(ToyAttachment attachment)
