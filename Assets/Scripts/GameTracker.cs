@@ -12,6 +12,7 @@ namespace Assets.Scripts
 
         public void SelectedBaseToy(BaseToy toy)
         {
+            Debug.Log(toy.FriendlyName);
             BaseToy = toy;
         }
 
