@@ -303,9 +303,9 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 0
-        y: 400
-        width: 50
-        height: 50
+        y: 800
+        width: 100
+        height: 100
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -313,7 +313,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f62748b2ea4b01e45b5a7dcca8e00de9
+      spriteID: 7d4588087cbdaf54ea59053bb15daa07
       internalID: -1286273738915496132
       vertices: []
       indices: 
@@ -323,10 +323,10 @@ TextureImporter:
       name: Red_matter_bomb_1
       rect:
         serializedVersion: 2
-        x: 50
-        y: 400
-        width: 50
-        height: 50
+        x: 100
+        y: 800
+        width: 100
+        height: 100
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -334,7 +334,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 8eea68d998fc54947a057d33b32e0e9e
+      spriteID: 03a5814717b45f3408e75a556e73a8fa
       internalID: 3767000500742163300
       vertices: []
       indices: 
@@ -344,10 +344,10 @@ TextureImporter:
       name: Red_matter_bomb_2
       rect:
         serializedVersion: 2
-        x: 100
-        y: 400
-        width: 50
-        height: 50
+        x: 200
+        y: 800
+        width: 100
+        height: 100
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -355,7 +355,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d0c109f187de32e478eb8e61a15fbcc0
+      spriteID: 1efe938e405245d4b8ee780a7754a866
       internalID: 4835594414900184272
       vertices: []
       indices: 
@@ -365,10 +365,10 @@ TextureImporter:
       name: Red_matter_bomb_3
       rect:
         serializedVersion: 2
-        x: 150
-        y: 400
-        width: 50
-        height: 50
+        x: 300
+        y: 800
+        width: 100
+        height: 100
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -376,7 +376,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 2e73c7d1910553943b8665107c2344a4
+      spriteID: 3a1ec52c943952d49aee20ce5e9c86ec
       internalID: 4756494087435897885
       vertices: []
       indices: 
@@ -386,10 +386,10 @@ TextureImporter:
       name: Red_matter_bomb_4
       rect:
         serializedVersion: 2
-        x: 200
-        y: 400
-        width: 50
-        height: 50
+        x: 400
+        y: 800
+        width: 100
+        height: 100
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -397,7 +397,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f9bfff2f63ad8f34499e2634762b2b5c
+      spriteID: 911b0619eabf89c419430fea7844f35f
       internalID: 7711947112838902074
       vertices: []
       indices: 
@@ -407,10 +407,10 @@ TextureImporter:
       name: Red_matter_bomb_5
       rect:
         serializedVersion: 2
-        x: 250
-        y: 400
-        width: 50
-        height: 50
+        x: 500
+        y: 800
+        width: 100
+        height: 100
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -418,7 +418,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 8417c8cb83306e4439765f8ae2a61d09
+      spriteID: 7a0b5ae8d1652de4287a15eae5bbb383
       internalID: 1825186087177164377
       vertices: []
       indices: 
@@ -428,10 +428,10 @@ TextureImporter:
       name: Red_matter_bomb_6
       rect:
         serializedVersion: 2
-        x: 300
-        y: 400
-        width: 50
-        height: 50
+        x: 600
+        y: 800
+        width: 100
+        height: 100
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -439,7 +439,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: fb444d4e400cb0548be07e183dbedcb4
+      spriteID: 66ecf81e4ca81524c86a71a5602eb461
       internalID: 6858527177003425160
       vertices: []
       indices: 
@@ -449,10 +449,10 @@ TextureImporter:
       name: Red_matter_bomb_7
       rect:
         serializedVersion: 2
-        x: 350
-        y: 400
-        width: 50
-        height: 50
+        x: 700
+        y: 800
+        width: 100
+        height: 100
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -460,7 +460,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 92618e0bd4dbfcc40884b22d9df8076d
+      spriteID: e1258a7c34f907844bb61559e33e38df
       internalID: -7939608346255577820
       vertices: []
       indices: 
@@ -471,9 +471,9 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 0
-        y: 350
-        width: 50
-        height: 50
+        y: 700
+        width: 100
+        height: 100
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -481,7 +481,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 7da6620f049802345b61cf52a32b6458
+      spriteID: 579629aa083cb404fae583143edb9ca6
       internalID: -3813929352549157898
       vertices: []
       indices: 
@@ -491,10 +491,10 @@ TextureImporter:
       name: Red_matter_bomb_9
       rect:
         serializedVersion: 2
-        x: 50
-        y: 350
-        width: 50
-        height: 50
+        x: 100
+        y: 700
+        width: 100
+        height: 100
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -502,7 +502,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 7ca5edb4e469a5942a0c2cfa1d22beae
+      spriteID: bcaf4b77b54ad844c97eaacdf929ff56
       internalID: -8098751860442383350
       vertices: []
       indices: 
@@ -512,10 +512,10 @@ TextureImporter:
       name: Red_matter_bomb_10
       rect:
         serializedVersion: 2
-        x: 100
-        y: 350
-        width: 50
-        height: 50
+        x: 200
+        y: 700
+        width: 100
+        height: 100
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -523,7 +523,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 25a0fe5a46655c4498f240821c0cc16d
+      spriteID: 43e80b6e8b3194f4d9552b3bc8d00d09
       internalID: -5394513261887310447
       vertices: []
       indices: 
@@ -533,10 +533,10 @@ TextureImporter:
       name: Red_matter_bomb_11
       rect:
         serializedVersion: 2
-        x: 150
-        y: 350
-        width: 50
-        height: 50
+        x: 300
+        y: 700
+        width: 100
+        height: 100
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -544,7 +544,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 68262d4da28997442b984a21ec3c2faa
+      spriteID: 8442d270009b7bb4e85f40f5d343832f
       internalID: -4609731988590189218
       vertices: []
       indices: 
@@ -554,10 +554,10 @@ TextureImporter:
       name: Red_matter_bomb_12
       rect:
         serializedVersion: 2
-        x: 200
-        y: 350
-        width: 50
-        height: 50
+        x: 400
+        y: 700
+        width: 100
+        height: 100
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -565,7 +565,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 590929a2c0e8aa847948d8d23ef4fbce
+      spriteID: 4bf6c48393c43df42b64e3e68beb8246
       internalID: -2363788683194662779
       vertices: []
       indices: 
@@ -575,10 +575,10 @@ TextureImporter:
       name: Red_matter_bomb_13
       rect:
         serializedVersion: 2
-        x: 250
-        y: 350
-        width: 50
-        height: 50
+        x: 500
+        y: 700
+        width: 100
+        height: 100
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -586,7 +586,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 095502fcbac6be0488798e628e9cb039
+      spriteID: 7b862293237a8ac4eb1fbff7b2e4fae8
       internalID: -8284660057376569853
       vertices: []
       indices: 
@@ -596,10 +596,10 @@ TextureImporter:
       name: Red_matter_bomb_14
       rect:
         serializedVersion: 2
-        x: 300
-        y: 350
-        width: 50
-        height: 50
+        x: 600
+        y: 700
+        width: 100
+        height: 100
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -607,7 +607,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c2a528941039b75458e5d07121859db4
+      spriteID: 7fbe5659a3cd55045b4b5a52ccf13109
       internalID: -3068982617358419376
       vertices: []
       indices: 
@@ -617,10 +617,10 @@ TextureImporter:
       name: Red_matter_bomb_15
       rect:
         serializedVersion: 2
-        x: 350
-        y: 350
-        width: 50
-        height: 50
+        x: 700
+        y: 700
+        width: 100
+        height: 100
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -628,7 +628,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 88b4961cfd81f584faaa947c19ee4e27
+      spriteID: 6ec2732c6b30aca438719a0fade5a753
       internalID: -9219028419948196847
       vertices: []
       indices: 
@@ -639,9 +639,9 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 0
-        y: 300
-        width: 50
-        height: 50
+        y: 600
+        width: 100
+        height: 100
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -649,7 +649,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 11be20de9c777e94e842c3b815242215
+      spriteID: 496733d6aa1ed8143952378a99ab2589
       internalID: -1088147274162001353
       vertices: []
       indices: 
@@ -659,10 +659,10 @@ TextureImporter:
       name: Red_matter_bomb_17
       rect:
         serializedVersion: 2
-        x: 50
-        y: 300
-        width: 50
-        height: 50
+        x: 100
+        y: 600
+        width: 100
+        height: 100
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -670,7 +670,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 215bd3ad03c8a0345b728c6aeb2251b8
+      spriteID: 71aff40afd63aab43b5dcd3eaedc71df
       internalID: -7186248126920261740
       vertices: []
       indices: 
@@ -680,10 +680,10 @@ TextureImporter:
       name: Red_matter_bomb_18
       rect:
         serializedVersion: 2
-        x: 100
-        y: 300
-        width: 50
-        height: 50
+        x: 200
+        y: 600
+        width: 100
+        height: 100
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -691,7 +691,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b31fa94f6c99d374ab524f1cafee60f0
+      spriteID: da6c0aa2451c6d9468fbe5effce6b619
       internalID: 3410677802807213835
       vertices: []
       indices: 
@@ -701,10 +701,10 @@ TextureImporter:
       name: Red_matter_bomb_19
       rect:
         serializedVersion: 2
-        x: 150
-        y: 300
-        width: 50
-        height: 50
+        x: 300
+        y: 600
+        width: 100
+        height: 100
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -712,7 +712,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 4cb05ea6a3793ef4d9f8e1a91a2bd1a6
+      spriteID: d872667181e966e4fa48a0b9ce7c2f0a
       internalID: -4114218941275117084
       vertices: []
       indices: 
@@ -722,10 +722,10 @@ TextureImporter:
       name: Red_matter_bomb_20
       rect:
         serializedVersion: 2
-        x: 200
-        y: 300
-        width: 50
-        height: 50
+        x: 400
+        y: 600
+        width: 100
+        height: 100
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -733,7 +733,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d99759011485ee74686161e7eb3c8da6
+      spriteID: 09feb1b0a118c4a4c9336e9f26187680
       internalID: 4548850005510679726
       vertices: []
       indices: 
@@ -743,10 +743,10 @@ TextureImporter:
       name: Red_matter_bomb_21
       rect:
         serializedVersion: 2
-        x: 250
-        y: 300
-        width: 50
-        height: 50
+        x: 500
+        y: 600
+        width: 100
+        height: 100
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -754,7 +754,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 5e61378698335224689b1cab13787d5a
+      spriteID: 21677a97df5f06c45b1079a4ef3cd55b
       internalID: 9162503048432022179
       vertices: []
       indices: 
@@ -764,10 +764,10 @@ TextureImporter:
       name: Red_matter_bomb_22
       rect:
         serializedVersion: 2
-        x: 300
-        y: 300
-        width: 50
-        height: 50
+        x: 600
+        y: 600
+        width: 100
+        height: 100
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -775,7 +775,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: cdfb4e450db059b438a21773001367a4
+      spriteID: 9f934e3a0cdad614c950a83b5a6f9d1a
       internalID: -3634325934638013328
       vertices: []
       indices: 
@@ -785,10 +785,10 @@ TextureImporter:
       name: Red_matter_bomb_23
       rect:
         serializedVersion: 2
-        x: 350
-        y: 300
-        width: 50
-        height: 50
+        x: 700
+        y: 600
+        width: 100
+        height: 100
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -796,7 +796,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 03422facba27f3c4cb28996070d53bc7
+      spriteID: ce39c550ab048ff43813cdd6e7f95f81
       internalID: -6972780199088388393
       vertices: []
       indices: 
@@ -807,9 +807,9 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 0
-        y: 250
-        width: 50
-        height: 50
+        y: 500
+        width: 100
+        height: 100
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -817,7 +817,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 57703167feab22042931fda23235f989
+      spriteID: e2eaede5024c8e84cbb713a62ed33e01
       internalID: -4078605740975979052
       vertices: []
       indices: 
@@ -827,10 +827,10 @@ TextureImporter:
       name: Red_matter_bomb_25
       rect:
         serializedVersion: 2
-        x: 50
-        y: 250
-        width: 50
-        height: 50
+        x: 100
+        y: 500
+        width: 100
+        height: 100
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -838,7 +838,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 74f5a50d248ed154aa9c54b4bce5187a
+      spriteID: a7f1df61979231145a2e9cd8f1a7214d
       internalID: -1616303346719659973
       vertices: []
       indices: 
@@ -848,10 +848,10 @@ TextureImporter:
       name: Red_matter_bomb_26
       rect:
         serializedVersion: 2
-        x: 100
-        y: 250
-        width: 50
-        height: 50
+        x: 200
+        y: 500
+        width: 100
+        height: 100
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -859,7 +859,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3bc796ad6a3dd564ab8db8b766966c72
+      spriteID: 2fe1f218652eb26469601a9d0c4ed854
       internalID: 1219756175414678936
       vertices: []
       indices: 
@@ -869,10 +869,10 @@ TextureImporter:
       name: Red_matter_bomb_27
       rect:
         serializedVersion: 2
-        x: 150
-        y: 250
-        width: 50
-        height: 50
+        x: 300
+        y: 500
+        width: 100
+        height: 100
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -880,7 +880,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 7bccc65b09fd632489160079757b12f9
+      spriteID: 38123c2e5a318a141b6bb23e2a44e887
       internalID: -176992267991568482
       vertices: []
       indices: 
@@ -890,10 +890,10 @@ TextureImporter:
       name: Red_matter_bomb_28
       rect:
         serializedVersion: 2
-        x: 200
-        y: 250
-        width: 50
-        height: 50
+        x: 400
+        y: 500
+        width: 100
+        height: 100
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -901,7 +901,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c617be3979b6fe94dafa60c49a8ea18c
+      spriteID: bf22bb2a6732a26478049f82fd286ab6
       internalID: 3161183053858857827
       vertices: []
       indices: 
@@ -911,10 +911,10 @@ TextureImporter:
       name: Red_matter_bomb_29
       rect:
         serializedVersion: 2
-        x: 250
-        y: 250
-        width: 50
-        height: 50
+        x: 500
+        y: 500
+        width: 100
+        height: 100
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -922,7 +922,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 1b07d6dbb38af1d48922246deceffba3
+      spriteID: d18648fc4d7d24842a199eba4725c024
       internalID: 6113860569981568808
       vertices: []
       indices: 
@@ -932,10 +932,10 @@ TextureImporter:
       name: Red_matter_bomb_30
       rect:
         serializedVersion: 2
-        x: 300
-        y: 250
-        width: 50
-        height: 50
+        x: 600
+        y: 500
+        width: 100
+        height: 100
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -943,7 +943,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 27adf51df37c18940ba53f83c2f6d876
+      spriteID: eacb97c68b6334044a89d79e2047c6b9
       internalID: 5730249743069240955
       vertices: []
       indices: 
@@ -953,10 +953,10 @@ TextureImporter:
       name: Red_matter_bomb_31
       rect:
         serializedVersion: 2
-        x: 350
-        y: 250
-        width: 50
-        height: 50
+        x: 700
+        y: 500
+        width: 100
+        height: 100
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -964,7 +964,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 312de790c9e3f9343a76088b91e9921f
+      spriteID: 89fe4ebbec455cc49990e871800d3fb8
       internalID: -5121618560174348559
       vertices: []
       indices: 
@@ -975,9 +975,9 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 0
-        y: 200
-        width: 50
-        height: 50
+        y: 400
+        width: 100
+        height: 100
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -985,7 +985,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 0a5207e38e4a09544b1320c3d87e2b27
+      spriteID: 91081aa39378f504187bd29faf2898cb
       internalID: -5640308888585395192
       vertices: []
       indices: 
@@ -995,10 +995,10 @@ TextureImporter:
       name: Red_matter_bomb_33
       rect:
         serializedVersion: 2
-        x: 50
-        y: 200
-        width: 50
-        height: 50
+        x: 100
+        y: 400
+        width: 100
+        height: 100
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1006,7 +1006,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 94268c975b6dfa0479ffb412a8caef11
+      spriteID: 83c31fc99d0c62041a7effa46d18fe64
       internalID: 6990222416570469750
       vertices: []
       indices: 
@@ -1016,10 +1016,10 @@ TextureImporter:
       name: Red_matter_bomb_34
       rect:
         serializedVersion: 2
-        x: 100
-        y: 200
-        width: 50
-        height: 50
+        x: 200
+        y: 400
+        width: 100
+        height: 100
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1027,7 +1027,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 168a94b9a3ff3534d83caa5e2d352af3
+      spriteID: 23e6d60e5fa39d74e960a9abad72f362
       internalID: -789992714854910596
       vertices: []
       indices: 
@@ -1037,10 +1037,10 @@ TextureImporter:
       name: Red_matter_bomb_35
       rect:
         serializedVersion: 2
-        x: 150
-        y: 200
-        width: 50
-        height: 50
+        x: 300
+        y: 400
+        width: 100
+        height: 100
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1048,7 +1048,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 85fcf4abf0b103b438228794c8ef48a4
+      spriteID: d81110c69caa1214eb8f59160899a4d2
       internalID: -3385517969922900461
       vertices: []
       indices: 
@@ -1058,10 +1058,10 @@ TextureImporter:
       name: Red_matter_bomb_36
       rect:
         serializedVersion: 2
-        x: 200
-        y: 200
-        width: 50
-        height: 50
+        x: 400
+        y: 400
+        width: 100
+        height: 100
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1069,7 +1069,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 7f5f7c0529a867e498d57c602a41a7e4
+      spriteID: c4b7c0947494b43419058d4256192332
       internalID: -7097216931592291786
       vertices: []
       indices: 
@@ -1079,10 +1079,10 @@ TextureImporter:
       name: Red_matter_bomb_37
       rect:
         serializedVersion: 2
-        x: 250
-        y: 200
-        width: 50
-        height: 50
+        x: 500
+        y: 400
+        width: 100
+        height: 100
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1090,7 +1090,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b4d3ce26a06f78b46ae064f301b43615
+      spriteID: 4b4863a91d263f54b90a22fc22c033b5
       internalID: 7100703206158960552
       vertices: []
       indices: 
@@ -1100,10 +1100,10 @@ TextureImporter:
       name: Red_matter_bomb_38
       rect:
         serializedVersion: 2
-        x: 300
-        y: 200
-        width: 50
-        height: 50
+        x: 600
+        y: 400
+        width: 100
+        height: 100
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1111,7 +1111,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 4822cd80f9c042f44889bde8bc4240d2
+      spriteID: 1fe05b16aff65534b8d63a03b9bc4d55
       internalID: -7491314776468326211
       vertices: []
       indices: 
@@ -1121,10 +1121,10 @@ TextureImporter:
       name: Red_matter_bomb_39
       rect:
         serializedVersion: 2
-        x: 350
-        y: 200
-        width: 50
-        height: 50
+        x: 700
+        y: 400
+        width: 100
+        height: 100
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1132,7 +1132,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a677d635743f20f4886951c5b1a16a3a
+      spriteID: 4e168790fe63f4a4e9dba086bb6fa215
       internalID: 2655595627439040836
       vertices: []
       indices: 
@@ -1143,9 +1143,9 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 0
-        y: 150
-        width: 50
-        height: 50
+        y: 300
+        width: 100
+        height: 100
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1153,7 +1153,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 99c4de34aa0936d44857273dcbe9af8c
+      spriteID: fb2f392d7f7a95c47a349c1d40a5656d
       internalID: 4226470205897055988
       vertices: []
       indices: 
@@ -1163,10 +1163,10 @@ TextureImporter:
       name: Red_matter_bomb_41
       rect:
         serializedVersion: 2
-        x: 50
-        y: 150
-        width: 50
-        height: 50
+        x: 100
+        y: 300
+        width: 100
+        height: 100
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1174,7 +1174,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: bf9a81829796ada45a71f4e743645e83
+      spriteID: 24f361042dbfa0c4ba76e6e48ca118cb
       internalID: -302749302220871344
       vertices: []
       indices: 
@@ -1184,10 +1184,10 @@ TextureImporter:
       name: Red_matter_bomb_42
       rect:
         serializedVersion: 2
-        x: 100
-        y: 150
-        width: 50
-        height: 50
+        x: 200
+        y: 300
+        width: 100
+        height: 100
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1195,7 +1195,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c1aece28e6409e44bbd4aee9eac1dd75
+      spriteID: f7c955b1a9081d045b444def697b78a9
       internalID: 7279878537216043875
       vertices: []
       indices: 
@@ -1205,10 +1205,10 @@ TextureImporter:
       name: Red_matter_bomb_43
       rect:
         serializedVersion: 2
-        x: 150
-        y: 150
-        width: 50
-        height: 50
+        x: 300
+        y: 300
+        width: 100
+        height: 100
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1216,7 +1216,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c8823931793bb704ca64b53d1ab8d08a
+      spriteID: 231c38179c3f5134d9424e7f39282ef6
       internalID: -2990174897716427923
       vertices: []
       indices: 
@@ -1226,10 +1226,10 @@ TextureImporter:
       name: Red_matter_bomb_44
       rect:
         serializedVersion: 2
-        x: 200
-        y: 150
-        width: 50
-        height: 50
+        x: 400
+        y: 300
+        width: 100
+        height: 100
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1237,7 +1237,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 0cd137370695e8b45a17f9e9de5a2356
+      spriteID: ce170576f48f88741a6d6dea040f8e4c
       internalID: -1913297876362606435
       vertices: []
       indices: 
@@ -1247,10 +1247,10 @@ TextureImporter:
       name: Red_matter_bomb_45
       rect:
         serializedVersion: 2
-        x: 250
-        y: 150
-        width: 50
-        height: 50
+        x: 500
+        y: 300
+        width: 100
+        height: 100
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1258,7 +1258,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 0d534aa066bbedc47bf7f4e161085c38
+      spriteID: d1dca45ffe6d0f047bf7741921406c04
       internalID: 3659492393662966315
       vertices: []
       indices: 
@@ -1268,10 +1268,10 @@ TextureImporter:
       name: Red_matter_bomb_46
       rect:
         serializedVersion: 2
-        x: 300
-        y: 150
-        width: 50
-        height: 50
+        x: 600
+        y: 300
+        width: 100
+        height: 100
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1279,7 +1279,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: fe7e63d59f6693f4fa56ac9d3437def2
+      spriteID: 143e0a0fcb5d5e64f94df3a73e60d152
       internalID: 618320559132005336
       vertices: []
       indices: 
@@ -1289,10 +1289,10 @@ TextureImporter:
       name: Red_matter_bomb_47
       rect:
         serializedVersion: 2
-        x: 350
-        y: 150
-        width: 50
-        height: 50
+        x: 700
+        y: 300
+        width: 100
+        height: 100
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1300,7 +1300,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9e4d290f3e325644795885083f98c598
+      spriteID: c9d4b0b316dce81479247df52aa0305c
       internalID: 8377090019806547569
       vertices: []
       indices: 
@@ -1311,9 +1311,9 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 0
-        y: 100
-        width: 50
-        height: 50
+        y: 200
+        width: 100
+        height: 100
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1321,7 +1321,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ca92c58f4e4265e4ba5d4093f61b5073
+      spriteID: abc0df061676fd34eb4f593c150ccbca
       internalID: -6048510259286445927
       vertices: []
       indices: 
@@ -1331,10 +1331,10 @@ TextureImporter:
       name: Red_matter_bomb_49
       rect:
         serializedVersion: 2
-        x: 50
-        y: 100
-        width: 50
-        height: 50
+        x: 100
+        y: 200
+        width: 100
+        height: 100
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1342,7 +1342,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 04a2fe6ec1e13d246bf18e8f8cb72f6d
+      spriteID: 6e14fb238e762db4eb3fc7cdcc1376b0
       internalID: -127358397368427539
       vertices: []
       indices: 
@@ -1352,10 +1352,10 @@ TextureImporter:
       name: Red_matter_bomb_50
       rect:
         serializedVersion: 2
-        x: 100
-        y: 100
-        width: 50
-        height: 50
+        x: 200
+        y: 200
+        width: 100
+        height: 100
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1363,7 +1363,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d4bd59cabf5e2534b815ebb7d6c1eb37
+      spriteID: 9dbc484477c873c43b1ed39f2690b3e0
       internalID: 7818500592673078029
       vertices: []
       indices: 
@@ -1373,10 +1373,10 @@ TextureImporter:
       name: Red_matter_bomb_51
       rect:
         serializedVersion: 2
-        x: 150
-        y: 100
-        width: 50
-        height: 50
+        x: 300
+        y: 200
+        width: 100
+        height: 100
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1384,7 +1384,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 876615d0773567b488cc76a07e8b6e08
+      spriteID: d0ad427760923a14e81a4b95b4b8031e
       internalID: -1144446197853762412
       vertices: []
       indices: 
@@ -1394,10 +1394,10 @@ TextureImporter:
       name: Red_matter_bomb_52
       rect:
         serializedVersion: 2
-        x: 200
-        y: 100
-        width: 50
-        height: 50
+        x: 400
+        y: 200
+        width: 100
+        height: 100
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1405,7 +1405,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 5987894096279bf489258175f4b20253
+      spriteID: 16ef525fc2d63364ba9c8350683bf368
       internalID: -183779316641511937
       vertices: []
       indices: 
@@ -1415,10 +1415,10 @@ TextureImporter:
       name: Red_matter_bomb_53
       rect:
         serializedVersion: 2
-        x: 250
-        y: 100
-        width: 50
-        height: 50
+        x: 500
+        y: 200
+        width: 100
+        height: 100
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1426,7 +1426,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 123ff1180bd09ea4c8c7850cc9add9a2
+      spriteID: e50e8692a23c0f1418cc6ec001edff15
       internalID: 5735981749222200053
       vertices: []
       indices: 
@@ -1436,10 +1436,10 @@ TextureImporter:
       name: Red_matter_bomb_54
       rect:
         serializedVersion: 2
-        x: 300
-        y: 100
-        width: 50
-        height: 50
+        x: 600
+        y: 200
+        width: 100
+        height: 100
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1447,7 +1447,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 5c1ffdfc80cfff647aa5b49e5e3baf72
+      spriteID: 03b4a07148d5ac04eaec5efa53ecd1ef
       internalID: 998412933977350320
       vertices: []
       indices: 
@@ -1457,10 +1457,10 @@ TextureImporter:
       name: Red_matter_bomb_55
       rect:
         serializedVersion: 2
-        x: 350
-        y: 100
-        width: 50
-        height: 50
+        x: 700
+        y: 200
+        width: 100
+        height: 100
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1468,7 +1468,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 5f65ecea6dd94d841987407f61d12dd9
+      spriteID: 3f486f875ceb5d2469367954b252e2d7
       internalID: -186080564774380151
       vertices: []
       indices: 
@@ -1479,9 +1479,9 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 0
-        y: 50
-        width: 50
-        height: 50
+        y: 100
+        width: 100
+        height: 100
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1489,7 +1489,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 8af967d211ed6354eb3dd868bfe25a8f
+      spriteID: 329083cd41e80dd47b8e9766151d20df
       internalID: 1647447451762307213
       vertices: []
       indices: 
@@ -1499,10 +1499,10 @@ TextureImporter:
       name: Red_matter_bomb_57
       rect:
         serializedVersion: 2
-        x: 50
-        y: 50
-        width: 50
-        height: 50
+        x: 100
+        y: 100
+        width: 100
+        height: 100
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1510,7 +1510,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d938b2ad73a1bc94ba7fd39bc1ad6a4c
+      spriteID: 12bde84087234fa4e91c1de960f66de4
       internalID: 5290358318940932208
       vertices: []
       indices: 
@@ -1520,10 +1520,10 @@ TextureImporter:
       name: Red_matter_bomb_58
       rect:
         serializedVersion: 2
-        x: 100
-        y: 50
-        width: 50
-        height: 50
+        x: 200
+        y: 100
+        width: 100
+        height: 100
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1531,7 +1531,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: cc07fd51571673a4a8ce5fc61f84ae74
+      spriteID: dcf1891dc7567bf4696b7019419be2dc
       internalID: -7190146625257026851
       vertices: []
       indices: 
@@ -1541,10 +1541,10 @@ TextureImporter:
       name: Red_matter_bomb_59
       rect:
         serializedVersion: 2
-        x: 150
-        y: 50
-        width: 50
-        height: 50
+        x: 300
+        y: 100
+        width: 100
+        height: 100
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1552,7 +1552,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 51a67840daf563a409b607a48b6679bf
+      spriteID: 4b3e16b05629f2d41b7faddfeab14386
       internalID: -4979278742799575925
       vertices: []
       indices: 
@@ -1562,10 +1562,10 @@ TextureImporter:
       name: Red_matter_bomb_60
       rect:
         serializedVersion: 2
-        x: 200
-        y: 50
-        width: 50
-        height: 50
+        x: 400
+        y: 100
+        width: 100
+        height: 100
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1573,7 +1573,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: bf27780a1d6e5e34c8c4491d3914de9f
+      spriteID: 8be147756897dcd45a4486b3b85e7ff3
       internalID: -7429674486693717312
       vertices: []
       indices: 
@@ -1583,10 +1583,10 @@ TextureImporter:
       name: Red_matter_bomb_61
       rect:
         serializedVersion: 2
-        x: 250
-        y: 50
-        width: 50
-        height: 50
+        x: 500
+        y: 100
+        width: 100
+        height: 100
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1594,7 +1594,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: dde17c33bcc41194bab92cecc4771b00
+      spriteID: 1ded27127f63be643a93180a6dee1454
       internalID: 5759798970723059670
       vertices: []
       indices: 
@@ -1604,10 +1604,10 @@ TextureImporter:
       name: Red_matter_bomb_62
       rect:
         serializedVersion: 2
-        x: 300
-        y: 50
-        width: 50
-        height: 50
+        x: 600
+        y: 100
+        width: 100
+        height: 100
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1615,7 +1615,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 5b57208fc2c359349a5ef76ed31e3ed6
+      spriteID: 1819f1db43936754fa2554aa6f1d2fca
       internalID: 2109635044662977148
       vertices: []
       indices: 
@@ -1625,10 +1625,10 @@ TextureImporter:
       name: Red_matter_bomb_63
       rect:
         serializedVersion: 2
-        x: 350
-        y: 50
-        width: 50
-        height: 50
+        x: 700
+        y: 100
+        width: 100
+        height: 100
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1636,7 +1636,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 92e8074f639ba5f4c8d2b6ccbfb52e6b
+      spriteID: 6a8c179701c39224da132ebdaf3819c4
       internalID: -6827435092132316115
       vertices: []
       indices: 
@@ -1648,8 +1648,8 @@ TextureImporter:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 50
-        height: 50
+        width: 100
+        height: 100
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1657,7 +1657,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: de79a1ebcba16c44e8aed5dd8b4fc0c8
+      spriteID: 295eebe18b6e48d4ab80ebc6b25d1d9b
       internalID: -4406198197248076356
       vertices: []
       indices: 
@@ -1667,10 +1667,10 @@ TextureImporter:
       name: Red_matter_bomb_65
       rect:
         serializedVersion: 2
-        x: 50
+        x: 100
         y: 0
-        width: 50
-        height: 50
+        width: 100
+        height: 100
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1678,7 +1678,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d6ca0c488b115404c96b734dc7cc0a6b
+      spriteID: 8f8d214c66b797345a938410fe99d599
       internalID: -3341045399599802579
       vertices: []
       indices: 
@@ -1688,10 +1688,10 @@ TextureImporter:
       name: Red_matter_bomb_66
       rect:
         serializedVersion: 2
-        x: 100
+        x: 200
         y: 0
-        width: 50
-        height: 50
+        width: 100
+        height: 100
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1699,7 +1699,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 66eaa536b6976e14da87b1a01d20f463
+      spriteID: ed8cd9153a4f7674faf9dcde6013b308
       internalID: -5185618226496973705
       vertices: []
       indices: 
@@ -1709,10 +1709,10 @@ TextureImporter:
       name: Red_matter_bomb_67
       rect:
         serializedVersion: 2
-        x: 150
+        x: 300
         y: 0
-        width: 50
-        height: 50
+        width: 100
+        height: 100
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1720,7 +1720,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 563983b5fa2c83644bff1811e6ee56b4
+      spriteID: ef7dc49866b5c084b83a8c97bc76b75d
       internalID: -8907439442937009080
       vertices: []
       indices: 
@@ -1730,10 +1730,10 @@ TextureImporter:
       name: Red_matter_bomb_68
       rect:
         serializedVersion: 2
-        x: 200
+        x: 400
         y: 0
-        width: 50
-        height: 50
+        width: 100
+        height: 100
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1741,50 +1741,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: add2bd06f1c08a146b341424c42fe3bc
+      spriteID: a6e2170a3c868004a88da918ca49de11
       internalID: 2108807119137011560
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Red_matter_bomb_69
-      rect:
-        serializedVersion: 2
-        x: 250
-        y: 0
-        width: 50
-        height: 50
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: af9dee4df9ae071409ad9498bb0fc457
-      internalID: 8005227080123074780
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Red_matter_bomb_70
-      rect:
-        serializedVersion: 2
-        x: 300
-        y: 0
-        width: 50
-        height: 50
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 27c1f4ff069787042837a063ab7a1e5f
-      internalID: 6605258808981777107
       vertices: []
       indices: 
       edges: []
