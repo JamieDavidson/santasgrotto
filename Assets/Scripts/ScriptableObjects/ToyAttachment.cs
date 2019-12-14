@@ -2,7 +2,7 @@
 
 namespace Assets.Scripts.ScriptableObjects
 {
-    [CreateAssetMenu(fileName = "ToyAttachment", menuName = "ToyShit/ToyAttachment")]
+    [CreateAssetMenu(fileName = "ToyAttachment", menuName = "Toys/ToyAttachment")]
     public sealed class ToyAttachment : ScriptableObject
     {
         public Sprite mySprite;

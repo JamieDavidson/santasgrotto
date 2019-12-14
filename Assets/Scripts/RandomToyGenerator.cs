@@ -16,8 +16,6 @@ public sealed class RandomToyGenerator : MonoBehaviour
 
         CurrentToy = GenerateNewToy();
 
-        ToyUserInterface.WriteToyDetails(CurrentToy);
-
         print(CurrentToy.ToString());
     }
 

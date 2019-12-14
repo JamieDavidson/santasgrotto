@@ -9,6 +9,12 @@ namespace Assets.Scripts
         public BaseToy BaseToy;
         public List<ToyAttachment> ToyAttachments;
         public PaintJob PaintJob;
+        public ToolType SelectedTool;
+
+        public void Awake()
+        {
+            DontDestroyOnLoad(this);
+        }
 
         public void SelectedBaseToy(BaseToy toy)
         {
@@ -29,6 +35,11 @@ namespace Assets.Scripts
         public void SelectedPaintJob(PaintJob paintJob)
         {
             PaintJob = paintJob;
+        }
+
+        public void SelectTool(int currentTool)
+        {
+            SelectedTool = (ToolType)currentTool;
         }
 
         public ToyCombination FinalizeToyCombination()
