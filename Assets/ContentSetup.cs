@@ -11,7 +11,9 @@ public class ContentSetup : MonoBehaviour
     public Transform BaseToyButtonContent;
     public Transform AttachmentButtonContent;
     public Transform PaintButtonContent;
-    public GameObject ButtonPrefab;
+
+    public GameObject BaseToyButtonPrefab;
+    public GameObject AttachmentButtonPrefab;
 
     private void Awake()
     {
@@ -37,7 +39,7 @@ public class ContentSetup : MonoBehaviour
 
     private void InstantiateToyButton(BaseToy toy, Transform content)
     {
-        var buttonPrefab = Instantiate(ButtonPrefab);
+        var buttonPrefab = Instantiate(BaseToyButtonPrefab);
         buttonPrefab.GetComponent<Button>().onClick.AddListener(() => { m_GameTracker.SelectedBaseToy(toy); });
         buttonPrefab.GetComponentInChildren<Image>().sprite = toy.MySprite;
         buttonPrefab.GetComponentInChildren<Text>().text = toy.FriendlyName;
@@ -46,7 +48,7 @@ public class ContentSetup : MonoBehaviour
 
     private void InstantiateAttachmentButton(ToyAttachment attachment, Transform content)
     {
-        var buttonPrefab = Instantiate(ButtonPrefab);
+        var buttonPrefab = Instantiate(AttachmentButtonPrefab);
         buttonPrefab.GetComponent<Button>().onClick.AddListener(() => { m_GameTracker.AddToyAttachment(attachment); });
         buttonPrefab.GetComponentInChildren<Image>().sprite = attachment.mySprite;
         buttonPrefab.GetComponentInChildren<Text>().text = attachment.friendlyName;

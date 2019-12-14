@@ -12,6 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 97fb914da3a22aa479f8a55ce9943412, type: 3}
   m_Name: Wheels
   m_EditorClassIdentifier: 
-  mySprite: {fileID: 0}
+  mySprite: {fileID: 1540525907155110391, guid: b975522a9e689784689791ac1526f96a,
+    type: 3}
   friendlyName: Wheels
   PrintablePhrase: 
+  ItemPrefab: {fileID: 0}
