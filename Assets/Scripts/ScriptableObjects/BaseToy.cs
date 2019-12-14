@@ -3,7 +3,7 @@
 namespace Assets.Scripts.ScriptableObjects
 {
     [CreateAssetMenu(fileName = "BaseToy", menuName = "ToyShit/BaseToy")]
-    internal sealed class BaseToy : ScriptableObject
+    public sealed class BaseToy : ScriptableObject
     {
         public Sprite mySprite;
 

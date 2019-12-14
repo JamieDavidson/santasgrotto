@@ -2,7 +2,7 @@
 using UnityEngine;
 
 [RequireComponent(typeof(GameDataStore))]
-internal sealed class RandomToyGenerator : MonoBehaviour
+public sealed class RandomToyGenerator : MonoBehaviour
 {
     private ToyCombination currentToy;
 

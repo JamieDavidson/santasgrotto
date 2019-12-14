@@ -3,7 +3,7 @@
 namespace Assets.Scripts.ScriptableObjects
 {
     [CreateAssetMenu(fileName = "Paintjob", menuName = "ToyShit/Paintjob")]
-    internal sealed class PaintJob : ScriptableObject
+    public sealed class PaintJob : ScriptableObject
     {
         public string friendlyName;
     }

@@ -4,7 +4,7 @@ using UnityEngine;
 
 namespace Assets.Scripts
 {
-    internal sealed class GameTracker : MonoBehaviour
+    public sealed class GameTracker : MonoBehaviour
     {
         public BaseToy BaseToy;
         public List<ToyAttachment> ToyAttachments;

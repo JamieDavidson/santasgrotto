@@ -4,7 +4,7 @@ using Assets.Scripts.ScriptableObjects;
 
 namespace Assets.Scripts
 {
-    internal sealed class ToyCombination
+    public sealed class ToyCombination
     {
         public BaseToy ToyBase { get; }
         public PaintJob PaintJob { get; }

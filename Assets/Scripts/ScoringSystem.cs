@@ -2,7 +2,7 @@
 
 namespace Assets.Scripts
 {
-    internal sealed class ScoringSystem : MonoBehaviour
+    public sealed class ScoringSystem : MonoBehaviour
     {
         public void SubmitScore(float timeTaken, ToyCombination expectedCombination, ToyCombination actualCombination)
         {
