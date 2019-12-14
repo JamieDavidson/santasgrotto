@@ -1,34 +1,28 @@
 fileFormatVersion: 2
-guid: f583279d0fc5a784698c50c7ef069c95
+guid: 51f2592e6bdc0e141aea87b599c0faa4
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -8841490917199087839
-    second: table_0
+      213: 3338801036398717453
+    second: MiniGun_0
   - first:
-      213: 70885313432537070
-    second: table_1
+      213: -2335660830617342041
+    second: MiniGun_1
   - first:
-      213: 5172761442312012347
-    second: table_2
+      213: 2353152932000380814
+    second: MiniGun_2
   - first:
-      213: -8393496852473891571
-    second: table_3
+      213: 5750663845658374682
+    second: MiniGun_3
   - first:
-      213: 7790998481412912861
-    second: table_4
+      213: 2990571703466117894
+    second: MiniGun_4
   - first:
-      213: -5504044869223272507
-    second: table_5
+      213: -1765318736157243593
+    second: MiniGun_5
   - first:
-      213: 6243382068904927358
-    second: table_6
-  - first:
-      213: -8357357505806109085
-    second: table_7
-  - first:
-      213: -1839717815967708537
-    second: table_8
+      213: -326556345003893594
+    second: MiniGun_6
   externalObjects: {}
   serializedVersion: 10
   mipmaps:
@@ -90,7 +84,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 0
+    textureCompression: 1
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -102,7 +96,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 0
+    textureCompression: 1
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -113,13 +107,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: table_0
+      name: MiniGun_0
       rect:
         serializedVersion: 2
         x: 0
-        y: 264
-        width: 192
-        height: 33
+        y: 100
+        width: 50
+        height: 50
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -127,20 +121,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 7af3eb64312577c488dfd213249449fb
-      internalID: -8841490917199087839
+      spriteID: c7d9f53da0c7e7d47b770e6bdf140192
+      internalID: 3338801036398717453
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: table_1
+      name: MiniGun_1
       rect:
         serializedVersion: 2
-        x: 0
-        y: 231
-        width: 192
-        height: 33
+        x: 50
+        y: 100
+        width: 50
+        height: 50
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -148,20 +142,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e901e13405ca5464aad2a2e9cb0f2d10
-      internalID: 70885313432537070
+      spriteID: 29e023063301c2c4ab3361682f4c5f15
+      internalID: -2335660830617342041
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: table_2
+      name: MiniGun_2
       rect:
         serializedVersion: 2
-        x: 0
-        y: 198
-        width: 192
-        height: 33
+        x: 100
+        y: 100
+        width: 50
+        height: 50
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -169,20 +163,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e9b1b81f9d56a214e88b22758511a0bf
-      internalID: 5172761442312012347
+      spriteID: 7e82dd69b74aceb4b85fe37ce83f70f9
+      internalID: 2353152932000380814
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: table_3
+      name: MiniGun_3
       rect:
         serializedVersion: 2
         x: 0
-        y: 165
-        width: 192
-        height: 33
+        y: 50
+        width: 50
+        height: 50
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -190,20 +184,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3b7e0e3c33770994381d14f7e32542ac
-      internalID: -8393496852473891571
+      spriteID: b73bf609a916adc4e9a5196ae2b29453
+      internalID: 5750663845658374682
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: table_4
+      name: MiniGun_4
       rect:
         serializedVersion: 2
-        x: 0
-        y: 132
-        width: 192
-        height: 33
+        x: 50
+        y: 50
+        width: 50
+        height: 50
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -211,20 +205,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a77c0bcc8a6668c4a8147714c8985c51
-      internalID: 7790998481412912861
+      spriteID: a86bcccdd9942254da325aadf346ce3a
+      internalID: 2990571703466117894
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: table_5
+      name: MiniGun_5
       rect:
         serializedVersion: 2
-        x: 0
-        y: 99
-        width: 192
-        height: 33
+        x: 100
+        y: 50
+        width: 50
+        height: 50
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -232,62 +226,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 86321c7b185089d47b3118895d8a8d0b
-      internalID: -5504044869223272507
+      spriteID: 83cb0002951ce5c4f99b219a917f8383
+      internalID: -1765318736157243593
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: table_6
-      rect:
-        serializedVersion: 2
-        x: 0
-        y: 66
-        width: 192
-        height: 33
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 5f2738d4e30df064899c2c6501f87dac
-      internalID: 6243382068904927358
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: table_7
-      rect:
-        serializedVersion: 2
-        x: 0
-        y: 33
-        width: 192
-        height: 33
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 87332ce9e6694084e911f7dfadacfdd8
-      internalID: -8357357505806109085
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: table_8
+      name: MiniGun_6
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 192
-        height: 33
+        width: 50
+        height: 50
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -295,8 +247,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f39f2edf7a9498b4eb786e1f0a1db13d
-      internalID: -1839717815967708537
+      spriteID: 293282ed4062513419ab80e7e1e5f95d
+      internalID: -326556345003893594
       vertices: []
       indices: 
       edges: []
