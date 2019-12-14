@@ -47,6 +47,7 @@ GameObject:
   - component: {fileID: 8415652192286834664}
   - component: {fileID: 8415652192286834665}
   - component: {fileID: 8415652192286834666}
+  - component: {fileID: -2684232389290962223}
   m_Layer: 5
   m_Name: Hovercraft
   m_TagString: Untagged
@@ -130,3 +131,16 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!114 &-2684232389290962223
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8415652192286834668}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 24af88295c6bc644097de7187ffce448, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  AttachmentData: {fileID: 11400000, guid: 2afbfa5284306fa4c830ccc4699cb250, type: 2}
