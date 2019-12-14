@@ -12,5 +12,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2d43474e48010a745af55b40553cf575, type: 3}
   m_Name: Sled
   m_EditorClassIdentifier: 
-  MySprite: {fileID: 0}
+  MySprite: {fileID: -5275775552126758067, guid: 741c08362941a2847baead90394209be,
+    type: 3}
   FriendlyName: Sled

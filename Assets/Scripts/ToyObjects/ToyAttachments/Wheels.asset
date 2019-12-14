@@ -13,4 +13,5 @@ MonoBehaviour:
   m_Name: Wheels
   m_EditorClassIdentifier: 
   mySprite: {fileID: 0}
-  friendlyName: 
+  friendlyName: Wheels
+  PrintablePhrase: 

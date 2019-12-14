@@ -12,5 +12,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2d43474e48010a745af55b40553cf575, type: 3}
   m_Name: FireTruck
   m_EditorClassIdentifier: 
-  MySprite: {fileID: 0}
+  MySprite: {fileID: -7377618019598528160, guid: b494e9148b2d4a64aa9e77a3719819de,
+    type: 3}
   FriendlyName: Fire Truck

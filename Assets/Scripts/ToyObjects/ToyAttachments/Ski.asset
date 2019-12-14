@@ -13,4 +13,5 @@ MonoBehaviour:
   m_Name: Ski
   m_EditorClassIdentifier: 
   mySprite: {fileID: 0}
-  friendlyName: 
+  friendlyName: Ski
+  PrintablePhrase: 

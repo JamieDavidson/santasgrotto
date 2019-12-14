@@ -13,4 +13,5 @@ MonoBehaviour:
   m_Name: Hovercraft
   m_EditorClassIdentifier: 
   mySprite: {fileID: 0}
-  friendlyName: 
+  friendlyName: Hovercraft
+  PrintablePhrase: 

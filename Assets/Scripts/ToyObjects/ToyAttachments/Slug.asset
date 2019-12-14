@@ -13,4 +13,5 @@ MonoBehaviour:
   m_Name: Slug
   m_EditorClassIdentifier: 
   mySprite: {fileID: 0}
-  friendlyName: 
+  friendlyName: Slug
+  PrintablePhrase: 
