@@ -4,7 +4,9 @@ using UnityEngine;
 [RequireComponent(typeof(GameDataStore))]
 public sealed class RandomToyGenerator : MonoBehaviour
 {
-    private ToyCombination currentToy;
+    public DisplayToy ToyUserInterface;
+
+    public ToyCombination CurrentToy;
 
     public GameDataStore Store;
 
@@ -12,9 +14,11 @@ public sealed class RandomToyGenerator : MonoBehaviour
     {
         Store = GetComponent<GameDataStore>();
 
-        currentToy = GenerateNewToy();
+        CurrentToy = GenerateNewToy();
 
-        print(currentToy.ToString());
+        ToyUserInterface.WriteToyDetails(CurrentToy);
+
+        print(CurrentToy.ToString());
     }
 
     private ToyCombination GenerateNewToy()

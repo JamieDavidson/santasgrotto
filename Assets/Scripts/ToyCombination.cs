@@ -21,7 +21,7 @@ namespace Assets.Scripts
 
         public override string ToString()
         {
-            return $"I want a {ToyBase.friendlyName} painted {PaintJob.friendlyName} with a {string.Join(", ", ToyAttachments.Select(t => t.friendlyName))}";
+            return $"I want a {ToyBase.FriendlyName} painted {PaintJob.friendlyName} with a {string.Join(", ", ToyAttachments.Select(t => t.friendlyName))}";
         }
     }
 }

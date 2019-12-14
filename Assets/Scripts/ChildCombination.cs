@@ -8,7 +8,7 @@ namespace Assets.Scripts
     {
         public ChildSprite ChildSprite { get; }
         public ChildName ChildName { get; }
-        
+
         public ChildCombination(ChildSprite childSprite, ChildName childName)
         {
             ChildSprite = childSprite;
