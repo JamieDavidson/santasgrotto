@@ -16,6 +16,6 @@ public sealed class DisplayToy : MonoBehaviour
             childText = GetComponentInChildren<Text>();
         }
 
-        childText.text = "stupid bitch toy";
+        childText.text = toyCombination.ToString();
     }
 }
