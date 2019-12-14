@@ -10,5 +10,7 @@ namespace Assets.Scripts.ScriptableObjects
         public string friendlyName;
 
         public string PrintablePhrase;
+
+        public GameObject ItemPrefab;
     }
 }

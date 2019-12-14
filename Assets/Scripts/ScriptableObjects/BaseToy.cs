@@ -8,5 +8,7 @@ namespace Assets.Scripts.ScriptableObjects
         public Sprite MySprite;
 
         public string FriendlyName;
+
+        public GameObject ItemPrefab;
     }
 }

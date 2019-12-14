@@ -11,6 +11,11 @@ namespace Assets.Scripts
         public PaintJob PaintJob;
         public ToolType SelectedTool;
 
+        public Transform ToyCreationRoot;
+        public Transform AttachmentCreationRoot;
+
+        private GameObject m_BaseToyObject;
+
         public void Awake()
         {
             DontDestroyOnLoad(this);
@@ -18,19 +23,19 @@ namespace Assets.Scripts
 
         public void SelectedBaseToy(BaseToy toy)
         {
-            Debug.Log(toy.FriendlyName);
             BaseToy = toy;
+
+            DestroyChildren(ToyCreationRoot);
+
+            m_BaseToyObject = Instantiate(BaseToy.ItemPrefab);
+            m_BaseToyObject.transform.SetParent(ToyCreationRoot);
+            m_BaseToyObject.transform.localPosition = Vector3.zero;
         }
 
-        public void AddToyAttachment(GameObject toyAttachment)
+        public void AddToyAttachment(ToyAttachment toyAttachment)
         {
-            var data = toyAttachment.GetComponent<AttachmentDataStore>();
-            if (data == null)
-            {
-                Debug.LogError("NO ATTACHMENT DATA FOUND ON OBJECT WE TRIED TO ATTACH");
-                return;
-            }
-            ToyAttachments.Add(data.AttachmentData);
+            Debug.Log("ADDING ATTACHMENT YEET");
+            ToyAttachments.Add(toyAttachment);
         }
 
         public void RemoveToyAttachment(ToyAttachment attachment)
@@ -46,11 +51,20 @@ namespace Assets.Scripts
         public void SelectTool(int currentTool)
         {
             SelectedTool = (ToolType)currentTool;
+
         }
 
         public ToyCombination FinalizeToyCombination()
         {
             return new ToyCombination(BaseToy, ToyAttachments.ToArray(), PaintJob);
+        }
+
+        private static void DestroyChildren(Transform parent)
+        {
+            for (var i = 0; i < parent.childCount; i++)
+            {
+                Destroy(parent.GetChild(i).gameObject);
+            }
         }
     }
 }
