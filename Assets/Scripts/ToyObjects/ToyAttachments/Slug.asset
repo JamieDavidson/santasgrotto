@@ -10,7 +10,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 97fb914da3a22aa479f8a55ce9943412, type: 3}
-  m_Name: Flamethrower
+  m_Name: Slug
   m_EditorClassIdentifier: 
   mySprite: {fileID: 0}
-  friendlyName: Flamethrower
+  friendlyName: 

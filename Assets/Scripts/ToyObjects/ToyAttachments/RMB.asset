@@ -9,8 +9,8 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 2d43474e48010a745af55b40553cf575, type: 3}
-  m_Name: Dragon
+  m_Script: {fileID: 11500000, guid: 97fb914da3a22aa479f8a55ce9943412, type: 3}
+  m_Name: ToyAttachment
   m_EditorClassIdentifier: 
-  MySprite: {fileID: 0}
-  FriendlyName: Dragon
+  mySprite: {fileID: 0}
+  friendlyName: 
