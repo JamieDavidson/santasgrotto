@@ -13,15 +13,15 @@ public sealed class GameDataStoreEditor : Editor
 
         if (GUILayout.Button("Populate store"))
         {
-            var myTarget = (GameDataStore) target;
+            var myTarget = (GameDataStore)target;
 
             var baseToys = GetAssetsByType<BaseToy>("t:BaseToy");
-
             var attachments = GetAssetsByType<ToyAttachment>("t:ToyAttachment");
-
             var paintJobs = GetAssetsByType<PaintJob>("t:PaintJob");
+            var childSprites = GetAssetsByType<ChildSprite>("t:ChildSprite");
+            var childNames = GetAssetsByType<ChildName>("t:ChildName");
 
-            myTarget.PopulateStore(baseToys, attachments, paintJobs);
+            myTarget.PopulateStore(baseToys, attachments, paintJobs, childSprites, childNames);
         }
 
         EditorUtility.SetDirty(target);
@@ -31,7 +31,7 @@ public sealed class GameDataStoreEditor : Editor
     {
         return AssetDatabase.FindAssets(typeFilter)
             .Select(AssetDatabase.GUIDToAssetPath)
-            .Select(t => AssetDatabase.LoadAssetAtPath(t, typeof(T)))
+            .Select(p => AssetDatabase.LoadAssetAtPath(p, typeof(T)))
             .Cast<T>();
     }
 }

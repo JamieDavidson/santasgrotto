@@ -558,9 +558,9 @@ GameObject:
   - component: {fileID: 519420032}
   - component: {fileID: 519420031}
   - component: {fileID: 519420029}
-  - component: {fileID: 519420030}
-  - component: {fileID: 519420033}
   - component: {fileID: 519420034}
+  - component: {fileID: 519420033}
+  - component: {fileID: 519420030}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -588,7 +588,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: dc1e0a70015186440a9884121f6ae32e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Store: {fileID: 519420033}
+  Store: {fileID: 0}
 --- !u!20 &519420031
 Camera:
   m_ObjectHideFlags: 0
@@ -673,6 +673,12 @@ MonoBehaviour:
   - {fileID: 11400000, guid: bda54de08decfa240b3bc158256d948a, type: 2}
   - {fileID: 11400000, guid: b0ff172e605fcce47b6559dbf34ed72a, type: 2}
   - {fileID: 11400000, guid: 30983df329211cb41a03a551a0b1c168, type: 2}
+  ChildSprites:
+  - {fileID: 11400000, guid: 807345c04e2491444a1b8c6ac1494bce, type: 2}
+  - {fileID: 11400000, guid: 086e89fa8d5b8f64ba2804926210c6fd, type: 2}
+  ChildNames:
+  - {fileID: 11400000, guid: 4d5e294ddf362b1439306295f181ae07, type: 2}
+  - {fileID: 11400000, guid: dd362e7a53a496b49929b2e9013a897a, type: 2}
 --- !u!114 &519420034
 MonoBehaviour:
   m_ObjectHideFlags: 0
