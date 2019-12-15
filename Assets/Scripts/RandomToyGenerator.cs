@@ -1,4 +1,5 @@
 ﻿using System.Collections.Generic;
+using System.Linq;
 using System.Text;
 using Assets.Scripts;
 using UnityEngine;
@@ -38,10 +39,26 @@ public sealed class RandomToyGenerator : MonoBehaviour
     private ToyCombination GenerateNewToy(System.Random random)
     {
         var baseToy = Store.BaseToys[random.Next(0, Store.BaseToys.Length)];
-        var toyAttachment = Store.ToyAttachments[random.Next(0, Store.ToyAttachments.Length)];
+
+        var topAttachments = Store.ToyAttachments.Where(a =>
+            a.ItemPrefab.GetComponentInChildren<AttachmentData>().Slot == AttachmentSlot.Top)
+            .ToArray();
+
+        var bottomAttachments = Store.ToyAttachments.Where(a =>
+            a.ItemPrefab.GetComponentInChildren<AttachmentData>().Slot == AttachmentSlot.Bottom)
+            .ToArray();
+
+        var backAttachments = Store.ToyAttachments.Where(a =>
+            a.ItemPrefab.GetComponentInChildren<AttachmentData>().Slot == AttachmentSlot.Back)
+            .ToArray();
+
+        var back = backAttachments[random.Next(0, backAttachments.Length)];
+        var top = topAttachments[random.Next(0, topAttachments.Length)];
+        var bottom = bottomAttachments[random.Next(0, bottomAttachments.Length)];
+
         var paintJob = Store.PaintJobs[random.Next(0, Store.PaintJobs.Length)];
 
-        return new ToyCombination(baseToy, new[] { toyAttachment }, paintJob);
+        return new ToyCombination(baseToy, new[] { back, top, bottom }, paintJob);
     }
 
     private void SetupScrollText(ToyCombination[] toys, System.Random random)
@@ -61,10 +78,7 @@ public sealed class RandomToyGenerator : MonoBehaviour
 
             stringBuilder.Append($" {toy.ToyBase.FriendlyName}, ");
 
-            foreach (var attachment in toy.ToyAttachments)
-            {
-                stringBuilder.Append(attachment.PrintablePhrase);
-            }
+            stringBuilder.Append(string.Join(", ", toy.ToyAttachments.Select(a => a.PrintablePhrase)));
 
             stringBuilder.Append("\n\n");
         }
