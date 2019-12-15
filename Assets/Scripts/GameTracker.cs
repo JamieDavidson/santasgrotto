@@ -1,6 +1,7 @@
 ﻿using System.Collections.Generic;
 using System.Linq;
 using Assets.Scripts.ScriptableObjects;
+using Assets.Scripts.UI;
 using UnityEngine;
 
 namespace Assets.Scripts
@@ -14,12 +15,10 @@ namespace Assets.Scripts
         public ToolType SelectedTool;
 
         public Transform ToyCreationRoot;
-
         private RandomToyGenerator m_ToyGenerator;
-
         private GameObject m_BaseToyObject;
-
         public LevelChanger LevelChanger;
+        public LevelTimer GameTimer;
 
         public void Awake()
         {
@@ -98,6 +97,10 @@ namespace Assets.Scripts
 
         public void SubmitDesign()
         {
+            var timeLeft = GameTimer.MaxTime - GameTimer.CurrentTime;
+
+            GameTimer.SetPaused(true);
+
             var score = 0;
             var wantedDesign = m_ToyGenerator.CurrentToy;
 
@@ -110,6 +113,7 @@ namespace Assets.Scripts
                 .Count(attachment => ToyAttachments
                 .Any(t => t == attachment));
 
+            // didn't get paint finished, don't compare paint job
             //if (wantedDesign.PaintJob == PaintJob)
             //{
             //    score++;
