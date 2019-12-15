@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 307904622334803806}
   - component: {fileID: 307904622334803805}
   - component: {fileID: 307904622334803804}
-  - component: {fileID: -8373876114262773972}
+  - component: {fileID: 4278718930688052175}
   m_Layer: 5
   m_Name: Jet
   m_TagString: Untagged
@@ -95,7 +95,7 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
---- !u!114 &-8373876114262773972
+--- !u!114 &4278718930688052175
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}

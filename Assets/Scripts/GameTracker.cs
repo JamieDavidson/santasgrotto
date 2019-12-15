@@ -40,7 +40,7 @@ namespace Assets.Scripts
             var attachmentObject = Instantiate(toyAttachment.ItemPrefab);
             attachmentObject.transform.SetParent(ToyCreationRoot);
 
-            var attachmentAttachPoint = attachmentObject.GetComponent<AttachmentData>();
+            var attachmentAttachPoint = attachmentObject.GetComponentInChildren<AttachmentData>();
             var slotType = attachmentAttachPoint.Slot;
 
             var slot = m_BaseToyObject.GetComponentsInChildren<AttachmentData>()
@@ -55,7 +55,11 @@ namespace Assets.Scripts
             for (var i = 0; i < ToyCreationRoot.childCount; i++)
             {
                 var child = ToyCreationRoot.GetChild(i);
-                if (child.GetComponent<AttachmentData>()?.Slot == slotType && attachmentObject != child.gameObject)
+                if (child.gameObject == m_BaseToyObject)
+                {
+                    continue;
+                }
+                if (child.GetComponentInChildren<AttachmentData>()?.Slot == slotType && attachmentObject != child.gameObject)
                 {
                     Destroy(child.gameObject);
                 }
@@ -97,14 +101,19 @@ namespace Assets.Scripts
 
         private static void AttachTheThingToTheOtherThing(AttachmentData toyAttach, AttachmentData attachmentAttach)
         {
-            var toyAttachPos = toyAttach.transform.localPosition;
-            var attachmentAttachTransform = attachmentAttach.transform;
-            var attachmentAttachPos = attachmentAttachTransform.localPosition;
+            // DO NOT TOUCH - BUG IN UNITY 2019.3.0f3
+            // attachmentAttach.transform.position
+            // and:
+            // var attachmentAttachTransform = attachmentAttach.transform;
+            // var attachmentAttachPos = attachmentAttachTransform.position;
+            // 
+            // give different values!
+            // attachmentAttachPos is actually localPosition!
+            // FUCK
+            var toyAttachPos = toyAttach.transform.position;
+            var attachmentParent = attachmentAttach.transform.parent;
 
-            var diff = toyAttachPos - attachmentAttachPos;
-
-            var newPos = attachmentAttachPos + diff;
-            attachmentAttachTransform.localPosition = newPos;
+            attachmentParent.position = toyAttachPos - attachmentAttach.transform.localPosition;
         }
     }
 }
