@@ -163,7 +163,7 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 2
+  spriteMode: 1
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -212,10 +212,10 @@ TextureImporter:
       name: Parchment_0
       rect:
         serializedVersion: 2
-        x: 0
-        y: 600
-        width: 100
-        height: 100
+        x: 800
+        y: 2000
+        width: 800
+        height: 200
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -223,7 +223,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 352a39979b7d33647baeed24cb0c5ad2
+      spriteID: c9ac41dcf1c60924987279494fc0986f
       internalID: 2279351214028215037
       vertices: []
       indices: 
@@ -233,10 +233,10 @@ TextureImporter:
       name: Parchment_1
       rect:
         serializedVersion: 2
-        x: 100
-        y: 600
-        width: 100
-        height: 100
+        x: 1600
+        y: 2000
+        width: 800
+        height: 200
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -244,7 +244,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3afe8ae05920837419f00ef026a1d7fa
+      spriteID: 8faa6ee62ba62ef409a9bc31b1e49486
       internalID: -6868466201492169259
       vertices: []
       indices: 
@@ -254,10 +254,10 @@ TextureImporter:
       name: Parchment_2
       rect:
         serializedVersion: 2
-        x: 200
-        y: 600
-        width: 100
-        height: 100
+        x: 0
+        y: 1800
+        width: 800
+        height: 200
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -265,7 +265,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 04b4be2d3bec18c4bbd84d4253e23dc0
+      spriteID: 8bfb76b4457110e4fa3823c7aece061e
       internalID: -5168373074397428613
       vertices: []
       indices: 
@@ -275,10 +275,10 @@ TextureImporter:
       name: Parchment_3
       rect:
         serializedVersion: 2
-        x: 300
-        y: 600
-        width: 100
-        height: 100
+        x: 800
+        y: 1800
+        width: 800
+        height: 200
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -286,7 +286,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 1124d3472307859409111807e7553eae
+      spriteID: bc76a5e4412b4cf40b9b97836e4a0879
       internalID: -3735356899514237714
       vertices: []
       indices: 
@@ -296,10 +296,10 @@ TextureImporter:
       name: Parchment_4
       rect:
         serializedVersion: 2
-        x: 400
-        y: 600
-        width: 100
-        height: 100
+        x: 1600
+        y: 1800
+        width: 800
+        height: 200
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -307,7 +307,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: dc465ceee90a974448a7ebbf749cc338
+      spriteID: b57bfef67b6057f48a0064f8117a4e52
       internalID: 3088911306772516861
       vertices: []
       indices: 
@@ -317,10 +317,10 @@ TextureImporter:
       name: Parchment_5
       rect:
         serializedVersion: 2
-        x: 500
-        y: 600
-        width: 100
-        height: 100
+        x: 0
+        y: 1600
+        width: 800
+        height: 200
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -328,7 +328,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e3597ed8b3a849d4ba5b24db4946ece0
+      spriteID: 50679a2dd9d3c6d4a99565f60844a013
       internalID: 2481932013299641193
       vertices: []
       indices: 
@@ -338,10 +338,10 @@ TextureImporter:
       name: Parchment_6
       rect:
         serializedVersion: 2
-        x: 0
-        y: 500
-        width: 100
-        height: 100
+        x: 800
+        y: 1600
+        width: 800
+        height: 200
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -349,7 +349,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 992574a6396f5bf45ae6f149c8809fa0
+      spriteID: f0d9a57fcf2be22489f4b950a893ca32
       internalID: -2357872107945954969
       vertices: []
       indices: 
@@ -359,10 +359,10 @@ TextureImporter:
       name: Parchment_7
       rect:
         serializedVersion: 2
-        x: 100
-        y: 500
-        width: 100
-        height: 100
+        x: 1600
+        y: 1600
+        width: 800
+        height: 200
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -370,7 +370,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d88be120b1c095e4eb7c52598831d429
+      spriteID: 47d8d8611c5266c42b52aae21b283be2
       internalID: 641936782963841873
       vertices: []
       indices: 
@@ -380,10 +380,10 @@ TextureImporter:
       name: Parchment_8
       rect:
         serializedVersion: 2
-        x: 200
-        y: 500
-        width: 100
-        height: 100
+        x: 0
+        y: 1400
+        width: 800
+        height: 200
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -391,7 +391,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 6b5cbcc1cb6b74b499602009bf58f9a6
+      spriteID: cd601f8969645874ebf34ffd11d7bfda
       internalID: 5303543526026721114
       vertices: []
       indices: 
@@ -401,10 +401,10 @@ TextureImporter:
       name: Parchment_9
       rect:
         serializedVersion: 2
-        x: 300
-        y: 500
-        width: 100
-        height: 100
+        x: 800
+        y: 1400
+        width: 800
+        height: 200
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -412,7 +412,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 8b4597d4bf70a5b4b9c5be52604438c5
+      spriteID: b3cf5b6300caef548a3168bf51f93e86
       internalID: 8691129485792851176
       vertices: []
       indices: 
@@ -422,10 +422,10 @@ TextureImporter:
       name: Parchment_10
       rect:
         serializedVersion: 2
-        x: 400
-        y: 500
-        width: 100
-        height: 100
+        x: 1600
+        y: 1400
+        width: 800
+        height: 200
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -433,7 +433,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f957e8ef54812ab40be9165f514eccc8
+      spriteID: 28e07e7d507a16845a47e38641bb0741
       internalID: 7099448908042034400
       vertices: []
       indices: 
@@ -443,10 +443,10 @@ TextureImporter:
       name: Parchment_11
       rect:
         serializedVersion: 2
-        x: 500
-        y: 500
-        width: 100
-        height: 100
+        x: 0
+        y: 1200
+        width: 800
+        height: 200
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -454,7 +454,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 89e212f6e73c1094ea6a463e1dd6d492
+      spriteID: 7c4fae3332ff663469faa544022e3cf3
       internalID: -4755184067889714753
       vertices: []
       indices: 
@@ -464,10 +464,10 @@ TextureImporter:
       name: Parchment_12
       rect:
         serializedVersion: 2
-        x: 0
-        y: 400
-        width: 100
-        height: 100
+        x: 800
+        y: 1200
+        width: 800
+        height: 200
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -475,7 +475,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f6e3d7e5fed293e4e84b0a41f6b21d27
+      spriteID: 44c6034b459dea44687f52ab05cf6bd9
       internalID: 3101210025327149519
       vertices: []
       indices: 
@@ -485,10 +485,10 @@ TextureImporter:
       name: Parchment_13
       rect:
         serializedVersion: 2
-        x: 100
-        y: 400
-        width: 100
-        height: 100
+        x: 1600
+        y: 1200
+        width: 800
+        height: 200
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -496,7 +496,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 2674735ea56f6994eb4751d729f40027
+      spriteID: 3965690100f1ba84ea216b2ba6e5bbf7
       internalID: -8614443427778954818
       vertices: []
       indices: 
@@ -506,10 +506,10 @@ TextureImporter:
       name: Parchment_14
       rect:
         serializedVersion: 2
-        x: 200
-        y: 400
-        width: 100
-        height: 100
+        x: 0
+        y: 1000
+        width: 800
+        height: 200
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -517,7 +517,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9da7be4f93c49d545868b1a888297e99
+      spriteID: 8f94daa6c64912e4e865dea15e0f7c06
       internalID: 2347363122492234610
       vertices: []
       indices: 
@@ -527,10 +527,10 @@ TextureImporter:
       name: Parchment_15
       rect:
         serializedVersion: 2
-        x: 300
-        y: 400
-        width: 100
-        height: 100
+        x: 800
+        y: 1000
+        width: 800
+        height: 200
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -538,7 +538,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: eca974075955c9547913a55c70982f05
+      spriteID: f67cea11e9361cb45b9d62e83c2ede99
       internalID: -1887260129038196840
       vertices: []
       indices: 
@@ -548,10 +548,10 @@ TextureImporter:
       name: Parchment_16
       rect:
         serializedVersion: 2
-        x: 400
-        y: 400
-        width: 100
-        height: 100
+        x: 1600
+        y: 1000
+        width: 800
+        height: 200
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -559,7 +559,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 74686fab41a3fc34b8db0862b5a91ab8
+      spriteID: c041bb0274f72954ba95a7d749406e35
       internalID: 5800781596059258932
       vertices: []
       indices: 
@@ -569,10 +569,10 @@ TextureImporter:
       name: Parchment_17
       rect:
         serializedVersion: 2
-        x: 500
-        y: 400
-        width: 100
-        height: 100
+        x: 0
+        y: 800
+        width: 800
+        height: 200
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -580,7 +580,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b09a6e6b3d13948479ce5076bb3e5a74
+      spriteID: a56e48371ec7e4942be71385819bbab4
       internalID: 4352974220343291823
       vertices: []
       indices: 
@@ -590,10 +590,10 @@ TextureImporter:
       name: Parchment_18
       rect:
         serializedVersion: 2
-        x: 0
-        y: 300
-        width: 100
-        height: 100
+        x: 800
+        y: 800
+        width: 800
+        height: 200
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -601,7 +601,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 08533027cae62bc4785950e9b5afdf06
+      spriteID: 0f174668722a2684b98477a2bb762cb4
       internalID: -9222116152127518885
       vertices: []
       indices: 
@@ -611,10 +611,10 @@ TextureImporter:
       name: Parchment_19
       rect:
         serializedVersion: 2
-        x: 100
-        y: 300
-        width: 100
-        height: 100
+        x: 1600
+        y: 800
+        width: 800
+        height: 200
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -622,7 +622,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f6514a65475e8284aba2f9d8dc62e268
+      spriteID: ff2a01af08a14d3438835851044fa0b7
       internalID: 7051666222249041857
       vertices: []
       indices: 
@@ -632,10 +632,10 @@ TextureImporter:
       name: Parchment_20
       rect:
         serializedVersion: 2
-        x: 200
-        y: 300
-        width: 100
-        height: 100
+        x: 0
+        y: 600
+        width: 800
+        height: 200
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -643,7 +643,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3caca23454662ee4ab0a5a84eb89ad22
+      spriteID: 8f6cb64de57d4aa49b9741868b34a367
       internalID: 8885578743813386878
       vertices: []
       indices: 
@@ -653,10 +653,10 @@ TextureImporter:
       name: Parchment_21
       rect:
         serializedVersion: 2
-        x: 300
-        y: 300
-        width: 100
-        height: 100
+        x: 800
+        y: 600
+        width: 800
+        height: 200
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -664,7 +664,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 116069c34f8c47349b77528c4d11f069
+      spriteID: 320b064b1f54aeb42a957dfb1b9e1722
       internalID: 7212637722352197646
       vertices: []
       indices: 
@@ -674,10 +674,10 @@ TextureImporter:
       name: Parchment_22
       rect:
         serializedVersion: 2
-        x: 400
-        y: 300
-        width: 100
-        height: 100
+        x: 1600
+        y: 600
+        width: 800
+        height: 200
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -685,7 +685,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 198295c9e27621f41b051997225cdecf
+      spriteID: 8504ad26d880ff740a69523590b99773
       internalID: 4306659299097407735
       vertices: []
       indices: 
@@ -695,10 +695,10 @@ TextureImporter:
       name: Parchment_23
       rect:
         serializedVersion: 2
-        x: 500
-        y: 300
-        width: 100
-        height: 100
+        x: 0
+        y: 400
+        width: 800
+        height: 200
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -706,7 +706,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 7969f7d5db060c748a52d436afd04e76
+      spriteID: 0c543a9c32aadb145b95b3883332eb33
       internalID: 1316669888314221110
       vertices: []
       indices: 
@@ -716,10 +716,10 @@ TextureImporter:
       name: Parchment_24
       rect:
         serializedVersion: 2
-        x: 0
-        y: 200
-        width: 100
-        height: 100
+        x: 800
+        y: 400
+        width: 800
+        height: 200
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -727,7 +727,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a58dd5b60a18f8d4dbe4bfc0d94e3c57
+      spriteID: 3129466eaa1d220429c8b78093ed831c
       internalID: 7706732131521653707
       vertices: []
       indices: 
@@ -737,10 +737,10 @@ TextureImporter:
       name: Parchment_25
       rect:
         serializedVersion: 2
-        x: 100
-        y: 200
-        width: 100
-        height: 100
+        x: 1600
+        y: 400
+        width: 800
+        height: 200
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -748,7 +748,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 170afcb135558084795b3618d61e737d
+      spriteID: c5b4fe55fa627c345b0d3b12ae4fdb93
       internalID: 3879998646742031602
       vertices: []
       indices: 
@@ -758,10 +758,10 @@ TextureImporter:
       name: Parchment_26
       rect:
         serializedVersion: 2
-        x: 200
+        x: 0
         y: 200
-        width: 100
-        height: 100
+        width: 800
+        height: 200
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -769,7 +769,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 37438350fd0cd1d44b140e9a49d3a813
+      spriteID: ee272df13a2943b43ae2ab78b83210d5
       internalID: -35354056885403282
       vertices: []
       indices: 
@@ -779,10 +779,10 @@ TextureImporter:
       name: Parchment_27
       rect:
         serializedVersion: 2
-        x: 300
+        x: 800
         y: 200
-        width: 100
-        height: 100
+        width: 800
+        height: 200
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -790,7 +790,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3f0275f4a6ccbc24fbce3b315b61c7e7
+      spriteID: ffecd5bbe0afd814d9d71d709e133454
       internalID: 8163958378425549955
       vertices: []
       indices: 
@@ -800,10 +800,10 @@ TextureImporter:
       name: Parchment_28
       rect:
         serializedVersion: 2
-        x: 400
+        x: 1600
         y: 200
-        width: 100
-        height: 100
+        width: 800
+        height: 200
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -811,7 +811,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d6f17fb2cb2a01445972843ca5f83b7f
+      spriteID: 2ba383fa67005904c930042e16980abe
       internalID: -6826902370296920005
       vertices: []
       indices: 
@@ -821,10 +821,10 @@ TextureImporter:
       name: Parchment_29
       rect:
         serializedVersion: 2
-        x: 500
-        y: 200
-        width: 100
-        height: 100
+        x: 0
+        y: 0
+        width: 800
+        height: 200
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -832,7 +832,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: bee6440c744ddf94f9e66205d0ba449e
+      spriteID: 497bc5d355c8c1243b495df15fed6035
       internalID: 8848183217123924382
       vertices: []
       indices: 
@@ -842,10 +842,10 @@ TextureImporter:
       name: Parchment_30
       rect:
         serializedVersion: 2
-        x: 0
-        y: 100
-        width: 100
-        height: 100
+        x: 800
+        y: 0
+        width: 800
+        height: 200
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -853,218 +853,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b2e6fb3c2717f0948bad51efa88bc627
+      spriteID: f15e297743e73a74fb3cabdcc81a1781
       internalID: -1724144927933516643
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Parchment_31
-      rect:
-        serializedVersion: 2
-        x: 100
-        y: 100
-        width: 100
-        height: 100
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: d76da309d73cf37439e99534ad4d0eb0
-      internalID: -2884673765914002837
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Parchment_32
-      rect:
-        serializedVersion: 2
-        x: 200
-        y: 100
-        width: 100
-        height: 100
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 8b38762c10639ee429eb9fa782e9a2d7
-      internalID: 80779240497912021
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Parchment_33
-      rect:
-        serializedVersion: 2
-        x: 300
-        y: 100
-        width: 100
-        height: 100
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: ecb88995bfa500348a4a6aa99de02220
-      internalID: -6286368615896358579
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Parchment_34
-      rect:
-        serializedVersion: 2
-        x: 400
-        y: 100
-        width: 100
-        height: 100
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: b5b596e26b6fe4a4a9709aef01b561ea
-      internalID: 5051531138814038444
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Parchment_35
-      rect:
-        serializedVersion: 2
-        x: 500
-        y: 100
-        width: 100
-        height: 100
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 739f514824ba226468085eeb04f7624e
-      internalID: -7203370643544707742
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Parchment_36
-      rect:
-        serializedVersion: 2
-        x: 0
-        y: 0
-        width: 100
-        height: 100
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 18b9c89edb736144ba0590452fc71684
-      internalID: -6693747517615541051
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Parchment_37
-      rect:
-        serializedVersion: 2
-        x: 100
-        y: 0
-        width: 100
-        height: 100
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 4be8f70e21b4bb24b8f3f1132ec0dd37
-      internalID: 7108779256792996393
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Parchment_38
-      rect:
-        serializedVersion: 2
-        x: 200
-        y: 0
-        width: 100
-        height: 100
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 88176d29785488f47add08b0c8659014
-      internalID: -2970644513805849287
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Parchment_39
-      rect:
-        serializedVersion: 2
-        x: 300
-        y: 0
-        width: 100
-        height: 100
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: fb5bf2d2a67766b46a7df3a371b16ce3
-      internalID: -6479040901930349181
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Parchment_40
-      rect:
-        serializedVersion: 2
-        x: 400
-        y: 0
-        width: 100
-        height: 100
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 9edf7a22f911f644ba51c0c176519e87
-      internalID: 4626401784617508460
       vertices: []
       indices: 
       edges: []
