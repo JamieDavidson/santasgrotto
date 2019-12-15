@@ -15,3 +15,5 @@ MonoBehaviour:
   MySprite: {fileID: -5275775552126758067, guid: 741c08362941a2847baead90394209be,
     type: 3}
   FriendlyName: Sled
+  ItemPrefab: {fileID: 8314070271759353012, guid: c6192f9caa1fa324a996a67550e450d5,
+    type: 3}

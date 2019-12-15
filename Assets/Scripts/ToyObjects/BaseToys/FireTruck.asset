@@ -15,3 +15,5 @@ MonoBehaviour:
   MySprite: {fileID: -7377618019598528160, guid: b494e9148b2d4a64aa9e77a3719819de,
     type: 3}
   FriendlyName: Fire Truck
+  ItemPrefab: {fileID: 2922855685169376520, guid: a3d4c70c175fa5349b308393c459d043,
+    type: 3}
