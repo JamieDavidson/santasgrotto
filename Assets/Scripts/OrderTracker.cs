@@ -10,14 +10,13 @@ public class OrderTracker : MonoBehaviour
     public List<ToyCombination> ActualCombinations = new List<ToyCombination>();
 
     public LevelChanger LevelLoader;
-
+    public int LastSceneIndex;
 
     private void Awake()
     {
         DontDestroyOnLoad(this);
 
         SceneManager.sceneLoaded += OnSceneChange;
-        LevelLoader = GameObject.Find("LevelChanger").GetComponent<LevelChanger>();
     }
 
     public void SetRequestedCombinations(List<ToyCombination> requestedCombinations)
@@ -37,14 +36,15 @@ public class OrderTracker : MonoBehaviour
 
     private void OnSceneChange(Scene scene, LoadSceneMode sceneMode)
     {
+        LevelLoader = GameObject.Find("LevelChanger").GetComponent<LevelChanger>();
         switch (scene.buildIndex)
         {
             case 2:
-                if (LevelLoader.LastSceneIndex == 1)
+                if (LastSceneIndex == 1)
                 {
                     // We came from workshop
                     // Load scoring UI
-
+                    Debug.Log("WE DO SCORE NOWE");
                 }
                 else
                 {

@@ -9,8 +9,6 @@ public class LevelChanger : MonoBehaviour
 
     public int LevelToLoad;
 
-    public int LastSceneIndex;
-
     public void Awake()
     {
         if (Animator == null)
@@ -27,7 +25,7 @@ public class LevelChanger : MonoBehaviour
 
     public void OnFadeComplete()
     {
-        LastSceneIndex = LevelToLoad;
+        GameObject.Find("OrderTracker").GetComponent<OrderTracker>().LastSceneIndex = SceneManager.GetActiveScene().buildIndex;
         SceneManager.LoadScene(LevelToLoad);
     }
 }
