@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 97fb914da3a22aa479f8a55ce9943412, type: 3}
+  m_Name: TopHat
+  m_EditorClassIdentifier: 
+  mySprite: {fileID: 21300000, guid: 9406c2ffb971dca469c84c198c6210cf, type: 3}
+  friendlyName: Top Hat
+  PrintablePhrase: wearing a Top Hat
+  ItemPrefab: {fileID: 6613178226385594915, guid: 6cad88f64c5330e4ba91a67197e2e5a0,
+    type: 3}
