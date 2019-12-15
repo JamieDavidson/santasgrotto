@@ -104,6 +104,10 @@ namespace Assets.Scripts
                 GameTimer.SetPaused(true);
                 LevelLoader.FadeToLevel();
             }
+            else
+            {
+                DestroyChildren(ToyCreationRoot);
+            }
         }
 
         private static void DestroyChildren(Transform parent)

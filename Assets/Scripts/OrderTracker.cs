@@ -11,14 +11,12 @@ public class OrderTracker : MonoBehaviour
 
     public LevelChanger LevelLoader;
 
-    public RandomToyGenerator RandomToys;
 
     private void Awake()
     {
         DontDestroyOnLoad(this);
 
         SceneManager.sceneLoaded += OnSceneChange;
-
         LevelLoader = GameObject.Find("LevelChanger").GetComponent<LevelChanger>();
     }
 
@@ -51,7 +49,7 @@ public class OrderTracker : MonoBehaviour
                 else
                 {
                     // We came from main menu or our own scene
-                    RandomToys.SetupToys();
+                    Camera.main.GetComponent<RandomToyGenerator>().SetupToys();
                 }
                 break;
         }
