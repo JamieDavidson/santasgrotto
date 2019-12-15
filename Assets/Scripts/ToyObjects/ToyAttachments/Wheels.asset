@@ -15,6 +15,6 @@ MonoBehaviour:
   mySprite: {fileID: 1540525907155110391, guid: b975522a9e689784689791ac1526f96a,
     type: 3}
   friendlyName: Wheels
-  PrintablePhrase: 
+  PrintablePhrase: with some phat wheels
   ItemPrefab: {fileID: 4957226945386243643, guid: 3c722af1a00783942ac6e893cfa58eb4,
     type: 3}

@@ -15,6 +15,6 @@ MonoBehaviour:
   mySprite: {fileID: 5246556276176665623, guid: c1022408c847f69499bbf64fd9d36086,
     type: 3}
   friendlyName: Hovercraft
-  PrintablePhrase: 
+  PrintablePhrase: riding a hovercraft
   ItemPrefab: {fileID: 8415652192286834668, guid: 779ea9773ef4a0a4ea03aa6873dedc04,
     type: 3}

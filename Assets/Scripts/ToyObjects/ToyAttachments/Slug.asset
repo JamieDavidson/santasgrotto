@@ -15,6 +15,6 @@ MonoBehaviour:
   mySprite: {fileID: -5603319923636521310, guid: bbd55933c9ffd264c812264c598fb09c,
     type: 3}
   friendlyName: Slug
-  PrintablePhrase: 
+  PrintablePhrase: riding a slug
   ItemPrefab: {fileID: 5800648332054617148, guid: 6310df1bb81cab941a2bccf051ed4461,
     type: 3}

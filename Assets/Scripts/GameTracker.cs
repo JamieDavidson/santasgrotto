@@ -1,7 +1,6 @@
 ﻿using System.Collections.Generic;
 using System.Linq;
 using Assets.Scripts.ScriptableObjects;
-using Assets.Scripts.UI;
 using UnityEngine;
 
 namespace Assets.Scripts
@@ -15,14 +14,14 @@ namespace Assets.Scripts
         public ToolType SelectedTool;
 
         public Transform ToyCreationRoot;
-        private RandomToyGenerator m_ToyGenerator;
         private GameObject m_BaseToyObject;
-        public LevelChanger LevelChanger;
         public LevelTimer GameTimer;
+        public OrderTracker OrderTracker;
+        public LevelChanger LevelLoader;
 
         public void Awake()
         {
-            m_ToyGenerator = GetComponent<RandomToyGenerator>();
+            OrderTracker = GameObject.Find("OrderTracker").GetComponent<OrderTracker>();
         }
 
         public void SelectedBaseToy(BaseToy toy)
@@ -87,7 +86,6 @@ namespace Assets.Scripts
         public void SelectTool(int currentTool)
         {
             SelectedTool = (ToolType)currentTool;
-
         }
 
         public ToyCombination FinalizeToyCombination()
@@ -99,31 +97,13 @@ namespace Assets.Scripts
         {
             var timeLeft = GameTimer.MaxTime - GameTimer.CurrentTime;
 
-            GameTimer.SetPaused(true);
+            OrderTracker.AddOrder(FinalizeToyCombination());
 
-            var score = 0;
-            var wantedDesign = m_ToyGenerator.CurrentToy;
-
-            if (wantedDesign.ToyBase == BaseToy)
+            if (OrderTracker.RequestedCombinations.Count == OrderTracker.ActualCombinations.Count)
             {
-                score++;
+                GameTimer.SetPaused(true);
+                LevelLoader.FadeToLevel();
             }
-
-            score += wantedDesign.ToyAttachments
-                .Count(attachment => ToyAttachments
-                .Any(t => t == attachment));
-
-            // didn't get paint finished, don't compare paint job
-            //if (wantedDesign.PaintJob == PaintJob)
-            //{
-            //    score++;
-            //}
-
-            var maxScore = wantedDesign.ToyAttachments.Count + 1;
-
-            Debug.Log($"Score is {score} out of {maxScore}");
-
-            LevelChanger.FadeToLevel();
         }
 
         private static void DestroyChildren(Transform parent)

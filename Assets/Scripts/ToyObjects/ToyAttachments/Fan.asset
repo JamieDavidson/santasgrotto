@@ -15,6 +15,6 @@ MonoBehaviour:
   mySprite: {fileID: 6147777685625707044, guid: 48d9e4a06e51e054ba797eed354a6eab,
     type: 3}
   friendlyName: Fan Propellor
-  PrintablePhrase: 
+  PrintablePhrase: propelled by a fan
   ItemPrefab: {fileID: 3826147591863027980, guid: dc949ebfee9c8db42870f44ab13ef411,
     type: 3}

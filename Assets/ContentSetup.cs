@@ -8,17 +8,20 @@ public class ContentSetup : MonoBehaviour
     private GameDataStore m_Store;
     private GameTracker m_GameTracker;
 
-    public Transform BaseToyButtonContent;
-    public Transform AttachmentButtonContent;
+    public RectTransform BaseToyButtonContent;
+    public RectTransform AttachmentButtonContent;
     public Transform PaintButtonContent;
 
     public GameObject BaseToyButtonPrefab;
     public GameObject AttachmentButtonPrefab;
 
+    public ScrollRect m_ScrollRect;
+
     private void Awake()
     {
         m_Store = Camera.main.GetComponent<GameDataStore>();
         m_GameTracker = Camera.main.GetComponent<GameTracker>();
+
 
         foreach (var toy in m_Store.BaseToys)
         {
@@ -35,6 +38,8 @@ public class ContentSetup : MonoBehaviour
     {
         BaseToyButtonContent.gameObject.SetActive(id == 0);
         AttachmentButtonContent.gameObject.SetActive(id == 1);
+
+        m_ScrollRect.content = id == 0 ? BaseToyButtonContent : AttachmentButtonContent;
     }
 
     private void InstantiateToyButton(BaseToy toy, Transform content)
