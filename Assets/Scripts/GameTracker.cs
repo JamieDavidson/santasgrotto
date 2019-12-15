@@ -19,9 +19,10 @@ namespace Assets.Scripts
 
         private GameObject m_BaseToyObject;
 
+        public LevelChanger LevelChanger;
+
         public void Awake()
         {
-            DontDestroyOnLoad(this);
             m_ToyGenerator = GetComponent<RandomToyGenerator>();
         }
 
@@ -117,6 +118,8 @@ namespace Assets.Scripts
             var maxScore = wantedDesign.ToyAttachments.Count + 1;
 
             Debug.Log($"Score is {score} out of {maxScore}");
+
+            LevelChanger.FadeToLevel();
         }
 
         private static void DestroyChildren(Transform parent)
