@@ -7,6 +7,7 @@ namespace Assets.Scripts
 {
     public sealed class GameTracker : MonoBehaviour
     {
+
         public BaseToy BaseToy;
         public List<ToyAttachment> ToyAttachments;
         public PaintJob PaintJob;
@@ -14,11 +15,14 @@ namespace Assets.Scripts
 
         public Transform ToyCreationRoot;
 
+        private RandomToyGenerator m_ToyGenerator;
+
         private GameObject m_BaseToyObject;
 
         public void Awake()
         {
             DontDestroyOnLoad(this);
+            m_ToyGenerator = GetComponent<RandomToyGenerator>();
         }
 
         public void SelectedBaseToy(BaseToy toy)
@@ -89,6 +93,30 @@ namespace Assets.Scripts
         public ToyCombination FinalizeToyCombination()
         {
             return new ToyCombination(BaseToy, ToyAttachments.ToArray(), PaintJob);
+        }
+
+        public void SubmitDesign()
+        {
+            var score = 0;
+            var wantedDesign = m_ToyGenerator.CurrentToy;
+
+            if (wantedDesign.ToyBase == BaseToy)
+            {
+                score++;
+            }
+
+            score += wantedDesign.ToyAttachments
+                .Count(attachment => ToyAttachments
+                .Any(t => t == attachment));
+
+            //if (wantedDesign.PaintJob == PaintJob)
+            //{
+            //    score++;
+            //}
+
+            var maxScore = wantedDesign.ToyAttachments.Count + 1;
+
+            Debug.Log($"Score is {score} out of {maxScore}");
         }
 
         private static void DestroyChildren(Transform parent)
