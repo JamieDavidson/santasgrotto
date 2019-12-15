@@ -15,4 +15,5 @@ MonoBehaviour:
   mySprite: {fileID: 21300000, guid: 1940860b082103a4fb4aa259e32f67ac, type: 3}
   friendlyName: Ski
   PrintablePhrase: 
-  ItemPrefab: {fileID: 0}
+  ItemPrefab: {fileID: 6070481062625127435, guid: 91c02a8797dce43459eafc8d1334f174,
+    type: 3}

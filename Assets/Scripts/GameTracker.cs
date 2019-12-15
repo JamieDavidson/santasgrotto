@@ -1,4 +1,5 @@
 ﻿using System.Collections.Generic;
+using System.Linq;
 using Assets.Scripts.ScriptableObjects;
 using UnityEngine;
 
@@ -12,7 +13,6 @@ namespace Assets.Scripts
         public ToolType SelectedTool;
 
         public Transform ToyCreationRoot;
-        public Transform AttachmentCreationRoot;
 
         private GameObject m_BaseToyObject;
 
@@ -34,7 +34,32 @@ namespace Assets.Scripts
 
         public void AddToyAttachment(ToyAttachment toyAttachment)
         {
-            Debug.Log("ADDING ATTACHMENT YEET");
+            var attachmentObject = Instantiate(toyAttachment.ItemPrefab);
+            attachmentObject.transform.SetParent(ToyCreationRoot);
+
+            var attachmentAttachPoint = attachmentObject.GetComponent<AttachmentData>();
+            var slotType = attachmentAttachPoint.Slot;
+
+            var slot = m_BaseToyObject.GetComponentsInChildren<AttachmentData>()
+                                      .FirstOrDefault(a => a.Slot == slotType);
+
+            if (slot == null)
+            {
+                Debug.Log("That don't go there son!");
+                return;
+            }
+
+            for (var i = 0; i < ToyCreationRoot.childCount; i++)
+            {
+                var child = ToyCreationRoot.GetChild(i);
+                if (child.GetComponent<AttachmentData>()?.Slot == slotType && attachmentObject != child.gameObject)
+                {
+                    Destroy(child.gameObject);
+                }
+            }
+
+            AttachTheThingToTheOtherThing(slot, attachmentAttachPoint);
+
             ToyAttachments.Add(toyAttachment);
         }
 
@@ -65,6 +90,18 @@ namespace Assets.Scripts
             {
                 Destroy(parent.GetChild(i).gameObject);
             }
+        }
+
+        private static void AttachTheThingToTheOtherThing(AttachmentData toyAttach, AttachmentData attachmentAttach)
+        {
+            var toyAttachPos = toyAttach.transform.localPosition;
+            var attachmentAttachTransform = attachmentAttach.transform;
+            var attachmentAttachPos = attachmentAttachTransform.localPosition;
+
+            var diff = toyAttachPos - attachmentAttachPos;
+
+            var newPos = attachmentAttachPos + diff;
+            attachmentAttachTransform.localPosition = newPos;
         }
     }
 }

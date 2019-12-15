@@ -16,4 +16,5 @@ MonoBehaviour:
     type: 3}
   friendlyName: Hovercraft
   PrintablePhrase: 
-  ItemPrefab: {fileID: 0}
+  ItemPrefab: {fileID: 8415652192286834668, guid: 779ea9773ef4a0a4ea03aa6873dedc04,
+    type: 3}

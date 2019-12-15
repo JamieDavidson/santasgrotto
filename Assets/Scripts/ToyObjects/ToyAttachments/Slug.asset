@@ -16,4 +16,5 @@ MonoBehaviour:
     type: 3}
   friendlyName: Slug
   PrintablePhrase: 
-  ItemPrefab: {fileID: 0}
+  ItemPrefab: {fileID: 5800648332054617148, guid: 6310df1bb81cab941a2bccf051ed4461,
+    type: 3}

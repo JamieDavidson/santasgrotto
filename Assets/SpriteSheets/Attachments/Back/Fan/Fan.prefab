@@ -9,6 +9,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 380395914621901621}
+  - component: {fileID: 8068795041542178490}
   m_Layer: 5
   m_Name: Attach
   m_TagString: Untagged
@@ -35,6 +36,19 @@ RectTransform:
   m_AnchoredPosition: {x: 22.45, y: 7.36}
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &8068795041542178490
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 380395914621901578}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4173f963bfdf0ae4199c67923bd44e1f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Slot: 0
 --- !u!1 &3826147591863027980
 GameObject:
   m_ObjectHideFlags: 0
@@ -47,6 +61,7 @@ GameObject:
   - component: {fileID: 3826147591863027976}
   - component: {fileID: 3826147591863027979}
   - component: {fileID: 3826147591863027978}
+  - component: {fileID: 8287363307916411384}
   m_Layer: 5
   m_Name: Fan
   m_TagString: Untagged
@@ -130,3 +145,16 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!114 &8287363307916411384
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3826147591863027980}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4173f963bfdf0ae4199c67923bd44e1f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Slot: 0

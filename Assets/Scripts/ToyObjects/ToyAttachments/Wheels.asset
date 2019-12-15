@@ -16,4 +16,5 @@ MonoBehaviour:
     type: 3}
   friendlyName: Wheels
   PrintablePhrase: 
-  ItemPrefab: {fileID: 0}
+  ItemPrefab: {fileID: 4957226945386243643, guid: 3c722af1a00783942ac6e893cfa58eb4,
+    type: 3}

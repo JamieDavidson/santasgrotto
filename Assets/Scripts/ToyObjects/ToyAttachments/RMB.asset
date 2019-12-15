@@ -16,4 +16,5 @@ MonoBehaviour:
     type: 3}
   friendlyName: Red Matter Bomb
   PrintablePhrase: 
-  ItemPrefab: {fileID: 0}
+  ItemPrefab: {fileID: 3485298920936787289, guid: 82c201f9b2752d64897aa491f1bb0f42,
+    type: 3}
