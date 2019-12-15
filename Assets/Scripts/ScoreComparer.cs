@@ -20,8 +20,6 @@ namespace Assets.Scripts
             var score = 0;
             var stringBuilder = new StringBuilder();
 
-            stringBuilder.Append("YOUR SCORE!\n\n");
-
             for (var i = 0; i < expectedToys.Length; i++)
             {
                 stringBuilder.Append($"Toy {i+1}:\n");
@@ -42,20 +40,22 @@ namespace Assets.Scripts
                 for (var j = 0; j < expectedAttachments.Length; j++)
                 {
                     var expectedAttachment = expectedAttachments[j];
-                    stringBuilder.Append($"We wanted: {expectedAttachment.friendlyName}\n");
+                    stringBuilder.Append($"We wanted: {expectedAttachment.friendlyName}, ");
                     if (actualAttachments.Any(a => a == expectedAttachment))
                     {
-                        stringBuilder.Append("And you got it!\n");
+                        stringBuilder.Append("and you got it!\n");
                         score += 1000;
                     }
                     else
                     {
-                        stringBuilder.Append("You didn't have it :(\n");
+                        stringBuilder.Append("but you didn't get it :(\n");
                     }
                 }
+
+                stringBuilder.Append("\n");
             }
 
-            stringBuilder.Append($"\nFINAL SCORE: {score}");
+            stringBuilder.Append($"FINAL SCORE: {score}");
 
             ScrollText.text = stringBuilder.ToString();
         }
