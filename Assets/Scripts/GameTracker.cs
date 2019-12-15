@@ -34,6 +34,9 @@ namespace Assets.Scripts
 
         public void AddToyAttachment(ToyAttachment toyAttachment)
         {
+            if (m_BaseToyObject == null)
+                return;
+
             var attachmentObject = Instantiate(toyAttachment.ItemPrefab);
             attachmentObject.transform.SetParent(ToyCreationRoot);
 
