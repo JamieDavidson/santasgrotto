@@ -263,7 +263,7 @@ MonoBehaviour:
     Jamie Davidson
     - Programming
 
-    William - Art, Music'
+    Will Guare - Art, Music'
 --- !u!222 &337715548
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -813,6 +813,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   LevelLoader: {fileID: 1650737752}
+  LastSceneIndex: 0
 --- !u!4 &1456495594
 Transform:
   m_ObjectHideFlags: 0

@@ -44,7 +44,8 @@ public class OrderTracker : MonoBehaviour
                 {
                     // We came from workshop
                     // Load scoring UI
-                    Debug.Log("WE DO SCORE NOWE");
+                    Camera.main.GetComponent<ScoreComparer>().DisplayScore(RequestedCombinations.ToArray(),
+                                                                           ActualCombinations.ToArray());
                 }
                 else
                 {
