@@ -831,6 +831,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   BaseToys:
   - {fileID: 11400000, guid: 38b190e80ab2efd408aff4859d84c18b, type: 2}
+  - {fileID: 11400000, guid: 8a8b4c4d0bd3d1b47a6590a13f417375, type: 2}
   - {fileID: 11400000, guid: d72094b87f163814ab223861d56d495e, type: 2}
   ToyAttachments:
   - {fileID: 11400000, guid: da65126e65b9a0149adaa9751439126d, type: 2}
@@ -840,6 +841,7 @@ MonoBehaviour:
   - {fileID: 11400000, guid: 1a2b4c1c1b4664343bef41d4d689c907, type: 2}
   - {fileID: 11400000, guid: 94ba6f16d9f5e704d8b1c1c2f52e26a4, type: 2}
   - {fileID: 11400000, guid: 4d991825c30c2ce41b9de1de532bf4f5, type: 2}
+  - {fileID: 11400000, guid: 1561e5684182a8048bdd613797e62768, type: 2}
   - {fileID: 11400000, guid: 899e762a7b9ae25408a63c71a69ae379, type: 2}
   PaintJobs:
   - {fileID: 11400000, guid: bda54de08decfa240b3bc158256d948a, type: 2}

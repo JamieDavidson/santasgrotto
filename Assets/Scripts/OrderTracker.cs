@@ -22,6 +22,7 @@ public class OrderTracker : MonoBehaviour
     public void SetRequestedCombinations(List<ToyCombination> requestedCombinations)
     {
         RequestedCombinations = requestedCombinations.ToList();
+        ActualCombinations = new List<ToyCombination>();
     }
 
     public void AddOrder(ToyCombination combination)

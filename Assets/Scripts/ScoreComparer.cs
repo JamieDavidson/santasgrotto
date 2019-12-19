@@ -28,9 +28,10 @@ namespace Assets.Scripts
                 var actual = actualToys[i];
 
                 stringBuilder.Append($"We wanted: {expected.ToyBase.FriendlyName}\n");
+                stringBuilder.Append($"You chose: {actual.ToyBase.FriendlyName}\n");
+
                 if (expected.ToyBase == actual.ToyBase)
                 {
-                    stringBuilder.Append($"You chose: {actual.ToyBase.FriendlyName}\n");
                     score += 1000;
                 }
 

@@ -14,6 +14,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   MySprite: {fileID: -6719852734675136478, guid: a6a287ed89039bd4fa242918987fef51,
     type: 3}
-  FriendlyName: HamsterCage
+  FriendlyName: Hamster Cage
   ItemPrefab: {fileID: 5365150731513148091, guid: 3dbc088eafbfcb249818aad1870eca2b,
     type: 3}
